@@ -9,11 +9,11 @@
         {{-- sticky top-0 membuat section ini "diam" saat di-scroll --}}
         <section class="sticky top-0 h-screen flex flex-col justify-center text-center bg-white px-4 z-10">
             <div class="max-w-4xl mx-auto" data-aos="fade-up">
-                <div class="h-1 w-12 bg-emerald-500 mx-auto mb-10"></div>
-                <h1 class="text-4xl lg:text-5xl font-extrabold text-emerald-800 mb-8 tracking-tight uppercase">
-                    ABOUT SRE UNESA
-                </h1>
-                <div class="text-lg text-slate-600 leading-relaxed font-medium px-4 text-left space-y-6">
+                <div class="flex items-center justify-center gap-6 mb-8">
+                    <img src="/images/logo/srehijau.png" alt="SRE Logo" class="h-14 lg:h-16 w-auto object-contain">
+                    <img src="/images/logo/unesa.png" alt="UNESA Logo" class="h-14 lg:h-16 w-auto object-contain">
+                </div>
+                <div class="text-lg text-slate-600 leading-relaxed font-medium px-4 text-center space-y-6">
                     <p>
                         Society of Renewable Energy (SRE) Universitas Negeri Surabaya merupakan organisasi mahasiswa yang baru direncanakan untuk mendukung transisi energi nasional menuju sumber energi bersih dan berkelanjutan. SRE Unesa difokuskan sebagai wadah pembelajaran terstruktur, diskusi ilmiah, serta pengembangan kompetensi energi terbarukan bagi mahasiswa lintas jurusan, khususnya dari latar belakang teknik dan sains di Unesa.
                     </p>
@@ -89,6 +89,31 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- SECTION 2b: VISI MISI (salinan) --}}
+        <section
+            class="sticky top-0 min-h-screen bg-white py-20 px-4 sm:px-6 lg:px-8 rounded-t-[5rem] lg:rounded-t-[8rem] z-[21]">
+            <div class="max-w-5xl mx-auto w-full">
+                <div class="text-center mb-8" data-aos="fade-up">
+                    <div class="h-1.5 w-16 bg-emerald-500 mx-auto mb-6 rounded-full"></div>
+                    <h1 class="text-4xl lg:text-6xl font-black text-slate-900 mb-2 uppercase tracking-tighter">
+                        Struktur <span class="text-emerald-600">Organisasi</span>
+                    </h1>
+                    <p class="text-slate-400 font-bold text-sm tracking-widest uppercase">
+                        SRE UNESA
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-[2rem] overflow-hidden h-[380px]" data-aos="zoom-in">
+                    {{-- Ganti dengan foto asli setelah upload ke: public/images/about/struktur-organisasi.jpg --}}
+                    <img
+                        src="/images/about/struktur-organisasi.png"
+                        alt="Struktur Organisasi SRE UNESA"
+                        class="w-full h-full object-cover">
+                    {{-- Setelah upload, ganti src di atas dengan: /images/about/struktur-organisasi.jpg --}}
                 </div>
             </div>
         </section>
@@ -177,7 +202,7 @@
 
         {{-- 02 Departemen Operasional --}}
         <section
-            class="sticky top-0 z-[32] bg-emerald-700 min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
+            class="sticky top-0 z-[32] bg-emerald-600 min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center" data-aos="fade-up">
                     <div class="lg:col-span-4 xl:pr-12">
@@ -209,43 +234,112 @@
                         </div>
                     </div>
                     <div id="scroll-02" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
-                        <div
-                            class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Budi
-                                    Santoso</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of
-                                    Maintenance</p>
+                        {{-- Public Relation: 3 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Fawazul Ammar</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Sains Data</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Public Relation</p>
                             </div>
                         </div>
-                        <div
-                            class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Riky
-                                    Pratama</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">
-                                    Technical Specialist</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Fadil Hasan Al-Rafli E. S.</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Public Relation</p>
                             </div>
                         </div>
-                        <div
-                            class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Eko
-                                    Prasetyo</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Field
-                                    Operator</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">M. Yudhi Wahyu Wibowo</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Public Relation</p>
+                            </div>
+                        </div>
+
+                        {{-- Human Resource: 4 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Ikhsan Dwi P.</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">D4 Teknik Listrik</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Mutia Indah Ramadhani</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sekar Ayu Widura</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Pend. Fisika</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Bunga Cantika Rahmatia P.</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Psikologi</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
                             </div>
                         </div>
                     </div>
@@ -287,52 +381,64 @@
                         </div>
                     </div>
                     <div id="scroll-03" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Diana
-                                    Rose</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">R&D
-                                    Coordinator</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Dewi Apriliani Inestasia</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Pend. Bisnis</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Maya
-                                    Putri</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Energy
-                                    Analyst</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Wida Fitri Nabilatul Hamidah</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Nina
-                                    Kurnia</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">System
-                                    Architect</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Reza Mortasefi</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Sistem Informasi</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Rio
-                                    Aditya</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Lead
-                                    Researcher</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ahmad Naufal Farras R.</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
                     </div>
@@ -342,7 +448,7 @@
 
         {{-- 04 Departemen Edukasi --}}
         <section
-            class="sticky top-0 z-[34] bg-emerald-800 min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
+            class="sticky top-0 z-[34] bg-emerald-600 min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center" data-aos="fade-up">
                     <div class="lg:col-span-4 xl:pr-12">
@@ -374,43 +480,118 @@
                         </div>
                     </div>
                     <div id="scroll-04" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
-                        <div
-                            class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Lani
-                                    Fitri</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Program
-                                    Director</p>
+                        {{-- Graphic Design: 2 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Evan Mulya Simbolon</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Sistem Informatika</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Graphic Design</p>
                             </div>
                         </div>
-                        <div
-                            class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                            <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Siska
-                                    Amelia</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Field
-                                    Instructor</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Nabila Aminatuzzahro</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Matematika</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Graphic Design</p>
                             </div>
                         </div>
-                        <div
-                            class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Ria
-                                    Anjelina</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Admin
-                                    Support</p>
+
+                        {{-- Branding: 2 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Farrel Brilliansyah Putra S</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Branding</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Tanzilal Ramadhan S</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Branding</p>
+                            </div>
+                        </div>
+
+                        {{-- Web Development: 1 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Damar Ninuwidarma</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Informatika</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Web Development</p>
+                            </div>
+                        </div>
+
+                        {{-- Treasurer: 1 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ellen Eka Mei A.</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Treasurer</p>
+                            </div>
+                        </div>
+
+                        {{-- Secretary: 1 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Salwa Naysila Karvia P</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Perencanaan Wilayah dan Kota</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Secretary</p>
                             </div>
                         </div>
                     </div>
@@ -452,58 +633,86 @@
                         </div>
                     </div>
                     <div id="scroll-05" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Kevin
-                                    Sanjaya</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Public
-                                    Relations</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Hafsha Lahfah</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Alisa
-                                    Putri</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Content
-                                    Creator</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arya Latief</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Dimas
-                                    Pratama</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Social
-                                    Media Specialist</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhajirin Ilham</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
-                        <div class="min-w-[340px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop"
-                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                            <div
-                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-2xl font-black text-white text-center uppercase tracking-tight mb-2">Rina
-                                    Amelia</h4>
-                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Media
-                                    Liaison</p>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sendi Aribi Saputra</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Pertambangan</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Purnama Adi Putra</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </div>
 
     <script>
