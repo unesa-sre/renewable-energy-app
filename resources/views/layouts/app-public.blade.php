@@ -260,8 +260,7 @@
                 class="{{ Request::routeIs('home') ? 'px-6 py-2 rounded-full bg-[#facc15] text-white shadow-sm' : 'text-slate-900 hover:text-[#009150]' }} font-medium transition uppercase tracking-wider text-[11px]">Home</a>
             <a href="{{ route('about') }}"
                 class="{{ Request::routeIs('about') ? 'px-6 py-2 rounded-full bg-[#facc15] text-white shadow-sm' : 'text-slate-900 hover:text-[#009150]' }} font-medium transition uppercase tracking-wider text-[11px]">About</a>
-            <a href="{{ route('milestone.resources') }}"
-                class="{{ Request::routeIs('milestone.resources') ? 'px-6 py-2 rounded-full bg-[#facc15] text-white shadow-sm' : 'text-slate-900 hover:text-[#009150]' }} font-medium transition uppercase tracking-wider text-[11px]">Resources</a>
+
             <a href="{{ route('milestone.activity') }}"
                 class="{{ Request::routeIs('milestone.activity') ? 'px-6 py-2 rounded-full bg-[#facc15] text-white shadow-sm' : 'text-slate-900 hover:text-[#009150]' }} font-medium transition uppercase tracking-wider text-[11px]">Activity</a>
             <a href="{{ route('milestone.article') }}"
@@ -327,8 +326,7 @@
                     class="block px-4 py-3 rounded-xl text-base font-medium text-slate-900 hover:bg-slate-50 transition uppercase tracking-wider">Home</a>
                 <a href="{{ route('about') }}"
                     class="block px-4 py-3 rounded-xl text-base font-medium text-slate-900 hover:bg-slate-50 transition uppercase tracking-wider">About</a>
-                <a href="{{ route('milestone.resources') }}"
-                    class="block px-4 py-3 rounded-xl text-base font-medium text-slate-900 hover:bg-slate-50 transition uppercase tracking-wider">Resources</a>
+
                 <a href="{{ route('milestone.activity') }}"
                     class="block px-4 py-3 rounded-xl text-base font-medium text-slate-900 hover:bg-slate-50 transition uppercase tracking-wider">Activity</a>
                 <a href="{{ route('milestone.article') }}"
@@ -363,7 +361,7 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="{{ Request::is('/') || Request::routeIs('milestone.activity*') ? '' : 'pt-20' }}">
+    <main class="{{ Request::is('/') || Request::routeIs('milestone.activity*') || Request::routeIs('milestone.article*') ? '' : 'pt-20' }}">
         @yield('content')
     </main>
 
@@ -443,24 +441,13 @@
                     </ul>
                 </div>
 
-                <!-- Column 3: Resources -->
+                <!-- Column 3: Contact -->
                 <div>
-                    <h4 class="font-bold mb-8 text-white uppercase tracking-[0.2em] text-xs">Resources</h4>
+                    <h4 class="font-bold mb-8 text-white uppercase tracking-[0.2em] text-xs">Contact</h4>
                     <ul class="space-y-4 text-emerald-50/70 text-sm font-semibold">
-                        <li><a href="{{ route('milestone.resources.show', 'solar') }}"
-                                class="hover:text-yellow-400 transition">Solar Energy</a></li>
-                        <li><a href="{{ route('milestone.resources.show', 'wind') }}"
-                                class="hover:text-yellow-400 transition">Wind Energy</a></li>
-                        <li><a href="{{ route('milestone.resources.show', 'hydro') }}"
-                                class="hover:text-yellow-400 transition">Hydro Power</a></li>
-                        <li><a href="{{ route('milestone.resources.show', 'bioenergy') }}"
-                                class="hover:text-yellow-400 transition">Bioenergy</a></li>
-                        <li><a href="{{ route('milestone.resources.show', 'geothermal') }}"
-                                class="hover:text-yellow-400 transition">Geothermal Energy</a></li>
-                        <li><a href="{{ route('milestone.resources.show', 'storage') }}"
-                                class="hover:text-yellow-400 transition">Energy Storage</a></li>
-                        <li><a href="{{ route('milestone.resources.show', 'sustainable') }}"
-                                class="hover:text-yellow-400 transition">Sustainable Living</a></li>
+                        <li><a href="{{ route('contact') }}" class="hover:text-yellow-400 hover:translate-x-1 transition-all inline-block">Hubungi Kami</a></li>
+                        <li><a href="{{ route('register') }}" class="hover:text-yellow-400 hover:translate-x-1 transition-all inline-block">Bergabung</a></li>
+                        <li><a href="https://mesin.ft.unesa.ac.id/" target="_blank" class="hover:text-yellow-400 hover:translate-x-1 transition-all inline-block">mesin.ft.unesa.ac.id</a></li>
                     </ul>
                 </div>
 

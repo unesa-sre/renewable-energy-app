@@ -37,8 +37,11 @@
         </div>
 
         <div>
-            <label class="block text-sm font-bold text-slate-700 mb-2" Deskripsi Produk</label>
-            <textarea name="description" rows="5" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 transition outline-none resize-none" placeholder="Jelaskan keunggulan dan spesifikasi produk...">{{ old('description', $product->description) }}</textarea>
+            <label class="block text-sm font-bold text-slate-700 mb-2">Deskripsi Produk</label>
+            <textarea name="description" id="desc-input-edit" class="hidden">{{ old('description', $product->description) }}</textarea>
+            <div id="quill-edit"
+                class="rounded-xl border border-slate-200 focus-within:border-primary transition"
+                style="min-height: 200px;"></div>
             @error('description') <p class="text-red-500 text-xs mt-2 font-bold">{{ $message }}</p> @enderror
         </div>
 
@@ -69,12 +72,13 @@
                 </div>
                 @endif
                 
-                <label class="flex flex-col items-center justify-center w-full h-32 border-2 border-slate-200 border-dashed rounded-xl cursor-pointer bg-slate-50 hover:bg-slate-100/50 transition duration-300">
-                    <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                <label class="flex flex-col items-center justify-center w-full h-32 border-2 border-slate-200 border-dashed rounded-xl cursor-pointer bg-slate-50 hover:bg-slate-100/50 transition duration-300 relative overflow-hidden">
+                    <div id="image-placeholder" class="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg class="w-8 h-8 mb-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-                        <p class="text-xs text-slate-400 font-bold">Upload Foto Baru (Akan menggantikan semua foto lama)</p>
+                        <p class="text-xs text-slate-400 font-bold px-4 text-center">Upload Foto Baru (Akan menggantikan semua foto lama, Max 4)</p>
                     </div>
-                    <input type="file" name="images[]" class="hidden" multiple />
+                    <div id="image-preview-container" class="hidden absolute inset-0 w-full h-full bg-slate-100 flex gap-2 p-2 items-center justify-center overflow-x-auto"></div>
+                    <input type="file" name="images[]" id="image-input" class="hidden" multiple accept="image/*" />
                 </label>
             </div>
             @error('images') <p class="text-red-500 text-xs mt-2 font-bold">{{ $message }}</p> @enderror
@@ -91,4 +95,97 @@
         </div>
     </form>
 </div>
+@endsection
+
+@section('scripts')
+{{-- Quill CDN --}}
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
+
+<style>
+#quill-edit .ql-toolbar {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+    border-color: #e2e8f0 !important;
+    background: #f8fafc;
+    font-family: inherit;
+}
+#quill-edit .ql-container {
+    border-radius: 0 0 0.75rem 0.75rem !important;
+    border-color: #e2e8f0 !important;
+    font-family: inherit;
+    font-size: 0.95rem;
+    min-height: 200px;
+}
+#quill-edit .ql-editor {
+    min-height: 200px;
+    padding: 1.25rem;
+    line-height: 1.75;
+    color: #334155;
+}
+#quill-edit .ql-editor.ql-blank::before {
+    color: #94a3b8;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+</style>
+
+<script>
+(function() {
+    // Quill editor
+    var toolbarOptions = [
+        ['bold', 'italic', 'underline', 'strike'],
+        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+        ['blockquote'],
+        [{ 'header': [1, 2, 3, false] }],
+        ['clean']
+    ];
+
+    var quill = new Quill('#quill-edit', {
+        theme: 'snow',
+        placeholder: 'Jelaskan keunggulan dan spesifikasi produk...',
+        modules: { toolbar: toolbarOptions }
+    });
+
+    var oldDesc = document.getElementById('desc-input-edit').value;
+    if (oldDesc) {
+        quill.clipboard.dangerouslyPasteHTML(oldDesc);
+    }
+
+    var form = document.querySelector('form[action*="product"]');
+    if (form) {
+        form.addEventListener('submit', function() {
+            document.getElementById('desc-input-edit').value = quill.getSemanticHTML();
+        });
+    }
+
+    // Image preview for multiple files
+    var input = document.getElementById('image-input');
+    var container = document.getElementById('image-preview-container');
+    var placeholder = document.getElementById('image-placeholder');
+
+    if (input && container && placeholder) {
+        input.addEventListener('change', function() {
+            container.innerHTML = ''; // clear old
+            if (this.files && this.files.length > 0) {
+                var max = Math.min(this.files.length, 4);
+                for (let i = 0; i < max; i++) {
+                    let reader = new FileReader();
+                    reader.onload = function(e) {
+                        let img = document.createElement('img');
+                        img.src = e.target.result;
+                        img.className = 'h-full w-auto object-cover rounded-lg shadow-sm aspect-square';
+                        container.appendChild(img);
+                    }
+                    reader.readAsDataURL(this.files[i]);
+                }
+                container.classList.remove('hidden');
+                placeholder.classList.add('hidden');
+            } else {
+                container.classList.add('hidden');
+                placeholder.classList.remove('hidden');
+            }
+        });
+    }
+})();
+</script>
 @endsection

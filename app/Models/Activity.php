@@ -10,9 +10,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Activity extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $fillable = ['name', 'location', 'date', 'image'];
+    protected $fillable = ['name', 'location', 'date', 'description', 'image', 'gallery_images', 'participants'];
 
     protected $casts = [
-        'date' => 'date',
+        'date'          => 'date',
+        'participants'  => 'array',
+        'gallery_images'=> 'array',
     ];
 }

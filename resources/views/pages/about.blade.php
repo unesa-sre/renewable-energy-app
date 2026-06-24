@@ -713,6 +713,49 @@
             </div>
         </section>
 
+        {{-- CTA: Wujudkan Masa Depan Hijau --}}
+        <section class="sticky top-0 z-[36] min-h-screen py-24 bg-white rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center justify-center overflow-hidden" data-aos="fade-up">
+            <div class="max-w-5xl mx-auto px-4 relative z-10 w-full">
+                <div class="relative bg-blue-600 rounded-[3rem] p-12 lg:p-24 text-center shadow-2xl overflow-hidden group" data-aos="zoom-in" data-aos-delay="100">
+
+                    {{-- Grid pattern background --}}
+                    <div class="absolute inset-0 opacity-20 pointer-events-none">
+                        <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <pattern id="about-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.8"/>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#about-grid)" />
+                        </svg>
+                    </div>
+
+                    {{-- Floating glow blobs --}}
+                    <div class="absolute -top-16 -right-16 w-64 h-64 bg-white/10 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-1000 pointer-events-none"></div>
+                    <div class="absolute -bottom-16 -left-16 w-48 h-48 bg-blue-300/20 rounded-full blur-2xl pointer-events-none"></div>
+
+                    {{-- Content --}}
+                    <div class="relative z-10">
+                        <h2 class="text-5xl lg:text-7xl font-black text-white mb-6 tracking-tighter leading-none" data-aos="fade-up" data-aos-delay="200">
+                            Wujudkan Masa Depan <br>
+                            <span class="text-blue-200 underline decoration-blue-400 underline-offset-8">Hijau.</span>
+                        </h2>
+                        <p class="text-blue-50/70 text-lg lg:text-xl max-w-2xl mx-auto mb-14 font-medium leading-relaxed" data-aos="fade-up" data-aos-delay="300">
+                            Setiap informasi adalah langkah awal menuju keberlanjutan. Mari bergabung bersama komunitas kami untuk dampak yang lebih besar.
+                        </p>
+                        <div class="flex justify-center" data-aos="fade-up" data-aos-delay="400">
+                            <a href="/contact" class="inline-flex items-center gap-3 bg-white text-blue-600 px-12 py-5 rounded-3xl font-black text-xl transition-all shadow-2xl hover:scale-105 hover:bg-blue-50 active:scale-95">
+                                Mulai Berkontribusi
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 
     <script>

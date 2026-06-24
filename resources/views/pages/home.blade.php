@@ -38,15 +38,10 @@
         </div>
 
     <!-- Clean Energy Showcase Section -->
-    <section class="py-24 bg-[#fafafa] relative z-20">
+    <section class="py-24 bg-white relative z-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Heading -->
             <div class="text-center mb-16" data-aos="fade-up">
-                <!-- Logos Area -->
-                <div class="flex items-center justify-center gap-8 mb-8 -mt-8">
-                    <img src="{{ asset('images/logo/unesa.png') }}" alt="UNESA Logo" class="h-20 md:h-32 object-contain drop-shadow-md">
-                    <img src="{{ asset('images/logo/srehijau.png') }}" alt="SRE Logo" class="h-14 md:h-20 object-contain drop-shadow-md">
-                </div>
                 <h2 class="text-4xl md:text-5xl font-extrabold text-[#111827] leading-tight font-sans tracking-tight">
                     Produce Your Own Clean Energy,<br>Save The Environment
                 </h2>
@@ -70,15 +65,13 @@
                 <!-- Col 2: Video Player -->
                 <div class="md:col-span-2" data-aos="zoom-in" data-aos-delay="200">
                     <div class="relative w-full rounded-[2rem] pb-4 bg-[#009150]">
-                        <div class="relative w-full aspect-video rounded-[2rem] overflow-hidden bg-gray-800">
-                            <!-- YouTube Embed -->
-                            <iframe class="w-full h-full" 
-                                src="https://www.youtube.com/embed//coArq_sC6Pw?si=7a1HrZZMfteKVaDC" 
-                                title="YouTube video player" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen>
-                            </iframe>
+                        <div class="relative w-full aspect-video rounded-[2rem] overflow-hidden bg-gray-800 group">
+                            <!-- Video Kincir Angin -->
+                            <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                                <source src="{{ asset('videos/resources/hero-bg.mp4') }}" type="video/mp4">
+                            </video>
+                            <!-- Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div>
                         </div>
                     </div>
                 </div>
@@ -279,7 +272,7 @@
 </section>
 
 <!-- Our Activity Section -->
-<section class="py-32 bg-slate-50 relative z-20">
+<section class="py-32 bg-white relative z-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
             <span class="text-[11px] font-black text-[#009150] uppercase tracking-widest border-b-[2px] border-[#009150] pb-1">Our Journey</span>
@@ -601,25 +594,25 @@
     <section class="pb-32 bg-white overflow-hidden relative z-10 w-full">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24 text-center" data-aos="fade-up">
             <h2 class="text-6xl md:text-8xl lg:text-9xl font-black leading-none tracking-tighter uppercase">
-                <span class="text-sky-600">🌱OUR</span> <span class="text-yellow-500">PARTNERS</span><span class="text-[#009150]">.</span>
+                <span class="text-[#009150]">OUR</span> <span class="text-[#009150]">PARTNERS</span><span class="text-[#009150]">.</span>
             </h2>
         </div>
         
         <div class="flex items-center gap-12 animate-marquee-right whitespace-nowrap" data-aos="fade-up" data-aos-delay="200">
                 @php
                     $partners = [
-                        ['name' => 'Pupuk Kaltim', 'logo' => 'images/partners/pln.png'],
-                        ['name' => 'Freeport Indonesia', 'logo' => 'images/partners/freeport.png'],
-                        ['name' => 'PLN Nusantara', 'logo' => 'images/partners/pertamina.png'],
-                        ['name' => 'Pertamina', 'logo' => 'images/partners/vale.png'],
-                        ['name' => 'Bukit Asam', 'logo' => 'images/partners/idx.png'],
-                        ['name' => 'Bukit Asam', 'logo' => 'images/partners/sier.png'],
-                        ['name' => 'Pupuk Kaltim', 'logo' => 'images/partners/pln.png'],
-                        ['name' => 'Freeport Indonesia', 'logo' => 'images/partners/freeport.png'],
-                        ['name' => 'PLN Nusantara', 'logo' => 'images/partners/pertamina.png'],
-                        ['name' => 'Pertamina', 'logo' => 'images/partners/vale.png'],
-                        ['name' => 'Bukit Asam', 'logo' => 'images/partners/idx.png'],
-                        ['name' => 'Bukit Asam', 'logo' => 'images/partners/sier.png'],
+                        ['name' => 'Pupuk Kaltim', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Freeport Indonesia', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'PLN Nusantara', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Pertamina', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Bukit Asam', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'SIER', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Pupuk Kaltim', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Freeport Indonesia', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'PLN Nusantara', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Pertamina', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'Bukit Asam', 'logo' => 'images/partners/contoh.png'],
+                        ['name' => 'SIER', 'logo' => 'images/partners/contoh.png'],
                     ];
                     $displayPartners = array_merge($partners, $partners, $partners);
                 @endphp

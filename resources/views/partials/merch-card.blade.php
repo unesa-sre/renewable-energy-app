@@ -11,7 +11,7 @@
     
     <div class="merch-body">
         <h3 class="merch-title text-slate-800">{{ $product->name }}</h3>
-        <p class="merch-desc">{{ Str::limit($product->description, 100) }}</p>
+        <p class="merch-desc">{!! Str::limit(strip_tags($product->description), 100) !!}</p>
         
         @php
             $imgs = is_array($product->image) ? $product->image : ($product->image ? [$product->image] : []);

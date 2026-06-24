@@ -27,40 +27,38 @@
                 </div>
 
                 <div>
-                    <label class="block text-xs font-black uppercase tracking-widest text-slate-400 mb-3">Konten
-                        Artikel</label>
-                    <textarea name="content" rows="10"
-                        class="w-full px-5 py-4 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus:border-primary focus:ring-4 focus:ring-primary/10 transition outline-none text-slate-700 dark:text-slate-200 font-medium resize-none leading-relaxed">{{ old('content', $article->content) }}</textarea>
-                    @error('content') <p class="text-red-500 text-[10px] mt-2 font-bold uppercase tracking-tight">
-                    {{ $message }}</p> @enderror
+                    <label class="block text-xs font-black uppercase tracking-widest text-slate-400 mb-3">Konten Artikel</label>
+                    <textarea name="content" id="content-input-edit" class="hidden">{{ old('content', $article->content) }}</textarea>
+                    <div id="quill-edit"
+                        class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200"
+                        style="min-height: 200px;"></div>
+                    @error('content') <p class="text-red-500 text-[10px] mt-2 font-bold uppercase tracking-tight">{{ $message }}</p> @enderror
                 </div>
 
                 <div>
-                    <label class="block text-xs font-black uppercase tracking-widest text-slate-400 mb-3">Gambar
-                        Sampul</label>
+                    <label class="block text-xs font-black uppercase tracking-widest text-slate-400 mb-3">Gambar Sampul</label>
                     <div class="flex flex-col sm:flex-row items-center gap-6 mb-4">
                         @if($article->image)
-                            <div class="shrink-0">
+                            <div class="shrink-0" id="current-image-container">
                                 <img src="{{ asset('storage/' . $article->image) }}"
                                     class="w-32 h-32 rounded-2xl object-cover border-4 border-slate-100 dark:border-slate-800 shadow-sm">
-                                <p class="text-[10px] text-center font-black text-slate-400 mt-2 uppercase tracking-widest">Saat
-                                    ini</p>
+                                <p class="text-[10px] text-center font-black text-slate-400 mt-2 uppercase tracking-widest">Saat Ini</p>
                             </div>
                         @endif
                         <label
-                            class="flex flex-col items-center justify-center w-full h-32 border-2 border-slate-200 dark:border-slate-700 border-dashed rounded-2xl cursor-pointer bg-slate-50 dark:bg-slate-800/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition duration-300">
-                            <div class="flex flex-col items-center justify-center pt-5 pb-6 text-slate-400">
+                            class="flex flex-col items-center justify-center w-full h-32 border-2 border-slate-200 dark:border-slate-700 border-dashed rounded-2xl cursor-pointer bg-slate-50 dark:bg-slate-800/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition duration-300 overflow-hidden relative">
+                            <div id="image-placeholder" class="flex flex-col items-center justify-center pt-5 pb-6 text-slate-400">
                                 <svg class="w-8 h-8 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M12 4v16m8-8H4"></path>
                                 </svg>
                                 <p class="text-[10px] font-bold uppercase tracking-widest">Ganti Gambar</p>
                             </div>
-                            <input type="file" name="image" class="hidden" />
+                            <img id="image-preview" src="" class="hidden absolute inset-0 w-full h-full object-cover">
+                            <input type="file" name="image" id="image-input" class="hidden" />
                         </label>
                     </div>
-                    @error('image') <p class="text-red-500 text-[10px] mt-2 font-bold uppercase tracking-tight">
-                    {{ $message }}</p> @enderror
+                    @error('image') <p class="text-red-500 text-[10px] mt-2 font-bold uppercase tracking-tight">{{ $message }}</p> @enderror
                 </div>
 
                 <div class="pt-6 flex flex-col sm:flex-row gap-4">
@@ -76,4 +74,97 @@
             </form>
         </div>
     </div>
+@endsection
+
+@section('scripts')
+{{-- Quill CDN --}}
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
+
+<style>
+#quill-edit .ql-toolbar {
+    border-radius: 1rem 1rem 0 0 !important;
+    border-color: #e2e8f0 !important;
+    background: #f8fafc;
+    font-family: inherit;
+}
+#quill-edit .ql-container {
+    border-radius: 0 0 1rem 1rem !important;
+    border-color: #e2e8f0 !important;
+    font-family: inherit;
+    font-size: 0.95rem;
+    min-height: 200px;
+}
+#quill-edit .ql-editor {
+    min-height: 200px;
+    padding: 1.25rem;
+    line-height: 1.75;
+    color: #334155;
+}
+#quill-edit .ql-editor.ql-blank::before {
+    color: #94a3b8;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+.dark #quill-edit .ql-toolbar { background: #1e293b; border-color: #334155 !important; }
+.dark #quill-edit .ql-container { border-color: #334155 !important; background: #1e293b; }
+.dark #quill-edit .ql-editor { color: #e2e8f0; }
+.dark .ql-snow .ql-stroke { stroke: #94a3b8; }
+.dark .ql-snow .ql-fill  { fill: #94a3b8; }
+.dark .ql-snow .ql-picker-label { color: #94a3b8; }
+</style>
+
+<script>
+(function() {
+    // Quill editor
+    var toolbarOptions = [
+        ['bold', 'italic', 'underline', 'strike'],
+        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+        ['blockquote'],
+        [{ 'header': [1, 2, 3, false] }],
+        ['clean']
+    ];
+
+    var quill = new Quill('#quill-edit', {
+        theme: 'snow',
+        placeholder: 'Tuliskan isi edukasi secara mendalam...',
+        modules: { toolbar: toolbarOptions }
+    });
+
+    var existingContent = document.getElementById('content-input-edit').value;
+    if (existingContent) {
+        quill.clipboard.dangerouslyPasteHTML(existingContent);
+    }
+
+    var form = document.querySelector('form[action*="article"]');
+    if (form) {
+        form.addEventListener('submit', function() {
+            document.getElementById('content-input-edit').value = quill.getSemanticHTML();
+        });
+    }
+
+    // Image preview
+    var input = document.getElementById('image-input');
+    var preview = document.getElementById('image-preview');
+    var placeholder = document.getElementById('image-placeholder');
+    var currentImg = document.getElementById('current-image-container');
+
+    if (input && preview && placeholder) {
+        input.addEventListener('change', function() {
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.classList.remove('hidden');
+                    placeholder.classList.add('hidden');
+                    if (currentImg) {
+                        currentImg.classList.add('hidden');
+                    }
+                };
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+    }
+})();
+</script>
 @endsection

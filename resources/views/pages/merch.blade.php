@@ -353,6 +353,30 @@
         text-align: center;
     }
     .alert-success { background: #dcfce7; color: #10b981; }
+
+    /* Quill Content Styling in Modal */
+    #mDesc {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    #mDesc p {
+        white-space: pre-wrap; /* Preserves enters but wraps text */
+        margin-bottom: 0.75rem;
+    }
+    #mDesc ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    #mDesc ol {
+        list-style-type: decimal;
+        padding-left: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    #mDesc a {
+        color: #009150;
+        text-decoration: underline;
+    }
 </style>
 @endsection
 
@@ -533,7 +557,7 @@
                 
                 <div class="bg-[#f8fafc] rounded-2xl p-5 mb-8 flex-grow overflow-y-auto" style="max-h: 250px;">
                     <h4 id="mName" class="font-bold text-slate-800 mb-2"></h4>
-                    <p id="mDesc" class="text-sm text-slate-500 leading-relaxed whitespace-pre-wrap"></p>
+                    <div id="mDesc" class="text-sm text-slate-500 leading-relaxed break-words whitespace-normal" style="word-wrap: break-word; overflow-x: hidden;"></div>
                 </div>
 
                 <a id="mOrderBtn" href="#" target="_blank" class="w-full bg-[#009150] hover:bg-[#002816] text-white text-center py-4 rounded-2xl font-bold transition shadow-xl shadow-emerald-500/20 active:scale-95 flex justify-center items-center gap-2 mt-auto">
@@ -575,7 +599,7 @@
         document.getElementById('mName').textContent = name;
         document.getElementById('mCategory').textContent = category;
         document.getElementById('mPrice').textContent = price;
-        document.getElementById('mDesc').textContent = desc;
+        document.getElementById('mDesc').innerHTML = desc;
         document.getElementById('mOrderBtn').href = link;
         
         const imgEl = document.getElementById('mImg');

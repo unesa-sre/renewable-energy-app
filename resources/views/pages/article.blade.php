@@ -4,10 +4,27 @@
 
 @section('content')
 <!-- Hero Section -->
-<div class="bg-energy-dark py-20 text-white">
-    <div class="max-w-7xl mx-auto px-4 text-center">
+<div class="relative bg-[#009150] pt-36 pb-0 text-white overflow-hidden">
+
+    <!-- Decorative blobs -->
+    <div class="absolute top-[-60px] left-[-80px] w-72 h-72 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-10 right-[-60px] w-60 h-60 bg-emerald-300/10 rounded-full blur-2xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 text-center pb-24 relative z-10">
         <h1 class="text-4xl md:text-5xl font-black mb-4 animate-in fade-in slide-in-from-top-4 duration-700">Wawasan Energi Terbarukan</h1>
-        <p class="text-emerald-100/70 max-w-2xl mx-auto leading-relaxed">Pelajari lebih dalam tentang teknologi bersih yang akan merubah dunia.</p>
+        <p class="text-emerald-100/80 max-w-2xl mx-auto leading-relaxed">Pelajari lebih dalam tentang teknologi bersih yang akan merubah dunia.</p>
+    </div>
+
+    <!-- Wave Bottom: thin green line style -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
+        <!-- White fill under wave -->
+        <svg class="relative block w-full h-[60px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+            <path d="M0,30 C200,60 400,0 600,30 C800,60 1000,0 1200,30 L1200,60 L0,60 Z" fill="#ffffff"/>
+        </svg>
+        <!-- Thin green stroke line on top of white -->
+        <svg class="absolute top-0 left-0 w-full h-[60px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+            <path d="M0,30 C200,60 400,0 600,30 C800,60 1000,0 1200,30" fill="none" stroke="#007a40" stroke-width="2.5"/>
+        </svg>
     </div>
 </div>
 
