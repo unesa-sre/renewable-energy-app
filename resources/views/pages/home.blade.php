@@ -8,9 +8,9 @@
     <div id="hero-slider" class="relative h-screen w-full overflow-hidden bg-slate-900">
         
         <!-- Background Images (Slides) -->
-        <div class="hero-slide absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out opacity-100" style="background-image: url('{{ asset('images/home/hero-bg-1.jpg') }}');"></div>
+        <div class="hero-slide absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out opacity-100" style="background-image: url('{{ asset('images/home/hero-bg-3.jpg') }}');"></div>
         <div class="hero-slide absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out opacity-0" style="background-image: url('{{ asset('images/home/hero-bg-2.jpg') }}');"></div>
-        <div class="hero-slide absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out opacity-0" style="background-image: url('{{ asset('images/home/hero-bg-3.jpg') }}');"></div>
+        <div class="hero-slide absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out opacity-0" style="background-image: url('{{ asset('images/home/hero-bg-1.jpg') }}');"></div>
         
         <!-- Large Blue Oval Blob -->
         <div class="absolute top-[-25%] left-[-20%] w-[150%] md:w-[95%] lg:w-[80%] h-[150%] bg-[#009150]/50 z-0 pointer-events-none" style="border-radius: 50%; transform: rotate(-12deg);"></div>
@@ -18,7 +18,7 @@
         <!-- Content -->
         <div class="relative z-10 flex flex-col justify-center h-full px-6 md:px-16 lg:px-24 max-w-5xl">
             <h1 class="text-5xl md:text-6xl lg:text-[5.5rem] font-black text-white leading-[0.9] mb-6 tracking-tighter mt-20" data-aos="fade-up">
-                Pioneering <br><span class="text-yellow-400">Green Energy</span><br>Transition.
+                Society of<br><span class="text-yellow-400">Renewable Energy</span><br>UNESA.
             </h1>
             <p class="text-white/90 text-lg md:text-[1.2rem] font-medium max-w-[32rem] leading-relaxed mb-10" data-aos="fade-up" data-aos-delay="100">
                 Society of Renewable Energy UNESA is the leading community for sustainable energy innovation and environmental advocacy.
@@ -37,117 +37,6 @@
 
         </div>
 
-    <!-- Clean Energy Showcase Section -->
-    <section class="py-24 bg-white relative z-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Heading -->
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl md:text-5xl font-extrabold text-[#111827] leading-tight font-sans tracking-tight">
-                    Produce Your Own Clean Energy,<br>Save The Environment
-                </h2>
-            </div>
-
-            <!-- Top Row: Icon, Video, Icon -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-20 items-center">
-                <!-- Col 1: Battery Storage -->
-                <div class="flex flex-col items-center text-center md:col-span-1" data-aos="fade-up" data-aos-delay="100">
-                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
-                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h8M10 4h4a1 1 0 011 1v2H9V5a1 1 0 011-1zm-6 6h16v10a2 2 0 01-2 2H6a2 2 0 01-2-2V13z M13 15l-3 4h4l-1 4" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Battery Storage<br>Solutions</h3>
-                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
-                        We fully utilise the latest corporate renewable energy technology to generate significant energy.
-                    </p>
-                </div>
-
-                <!-- Col 2: Video Player -->
-                <div class="md:col-span-2" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="relative w-full rounded-[2rem] pb-4 bg-[#009150]">
-                        <div class="relative w-full aspect-video rounded-[2rem] overflow-hidden bg-gray-800 group">
-                            <!-- Video Kincir Angin -->
-                            <video class="w-full h-full object-cover" autoplay muted loop playsinline>
-                                <source src="{{ asset('videos/resources/hero-bg.mp4') }}" type="video/mp4">
-                            </video>
-                            <!-- Gradient Overlay -->
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Col 3: Commercial Solar -->
-                <div class="flex flex-col items-center text-center md:col-span-1" data-aos="fade-up" data-aos-delay="300">
-                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
-                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Commercial Solar<br>Energy</h3>
-                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
-                        We fully utilise the latest corporate renewable energy technology to generate significant energy.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Bottom Row: 4 Icons -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Bottom 1 -->
-                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
-                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Inovasi Riset</h3>
-                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
-                        Mengembangkan teknologi energi terbarukan melalui penelitian berkelanjutan.
-                    </p>
-                </div>
-
-                <!-- Bottom 2 -->
-                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
-                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Community</h3>
-                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
-                        Wadah kolaborasi bagi mahasiswa dan praktisi energi bersih di Indonesia.
-                    </p>
-                </div>
-
-                <!-- Bottom 3 -->
-                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
-                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
-                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l4 4v10a2 2 0 01-2 2z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Edukasi Publik</h3>
-                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
-                        Menyebarluaskan pengetahuan tentang pentingnya transisi energi hijau.
-                    </p>
-                </div>
-
-                <!-- Bottom 4 -->
-                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="400">
-                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
-                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Aksi Nyata</h3>
-                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
-                        Implementasi langsung teknologi ramah lingkungan di masyarakat.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <!-- About SRE UNESA Section -->
 <section class="py-24 bg-white relative">
@@ -161,7 +50,9 @@
             <!-- Left: Text -->
             <div data-aos="fade-right" class="space-y-6">
                 <p class="text-slate-700 leading-relaxed font-medium">
-                    Society of Renewable Energy (SRE) Universitas Negeri Surabaya merupakan organisasi mahasiswa yang baru direncanakan untuk mendukung transisi energi nasional menuju sumber energi bersih dan berkelanjutan. SRE Unesa difokuskan sebagai wadah pembelajaran terstruktur, diskusi ilmiah, serta pengembangan kompetensi energi terbarukan bagi mahasiswa lintas jurusan, khususnya dari latar belakang teknik dan sains di Unes.
+                    Amidst the global transition to clean energy and Indonesia's Net Zero Emissions 2060 commitment, renewable energy development requires the support of competent human resources. However, practical platforms within campuses to facilitate student learning and collaboration in this energy sector remain very limited. Surabaya State University (Unesa) has significant potential to address this challenge through students with strong science and engineering backgrounds. Therefore, the establishment of the Unesa Society of Renewable Energy (SRE) is a strategic step in providing a structured learning and research center to prepare the younger generation to face future energy challenges.
+
+The SRE at Surabaya State University was established to create a learning and innovation ecosystem in the renewable energy sector.
                 </p>
                 <p class="text-slate-700 leading-relaxed font-medium">
                     SRE Universitas Negeri Surabaya didirikan untuk menciptakan ekosistem pembelajaran dan inovasi di bidang energi terbarukan.
@@ -262,14 +153,129 @@
                     </div>
 
                     <!-- Button -->
-                    <a href="{{ route('milestone.activity') }}" class="inline-block bg-[#009150] hover:bg-[#00703e] text-white px-8 py-3 rounded-full text-sm font-bold transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
-                        Explore More &rarr;
+                    <a href="{{ route('milestone.activity') }}" class="inline-block bg-[#009150] hover:bg-[#facc15] text-white px-8 py-3 rounded-full text-sm font-bold transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
+                        Explore More
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+
+    <!-- Clean Energy Showcase Section -->
+    <section class="py-24 bg-white relative z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Heading -->
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-[#111827] leading-tight font-sans tracking-tight">
+                    Produce Your Own Clean Energy,<br>Save The Environment
+                </h2>
+            </div>
+
+            <!-- Top Row: Icon, Video, Icon -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-20 items-center">
+                <!-- Col 1: Battery Storage -->
+                <div class="flex flex-col items-center text-center md:col-span-1" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h8M10 4h4a1 1 0 011 1v2H9V5a1 1 0 011-1zm-6 6h16v10a2 2 0 01-2 2H6a2 2 0 01-2-2V13z M13 15l-3 4h4l-1 4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Battery Storage<br>Solutions</h3>
+                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
+                        We fully utilise the latest corporate renewable energy technology to generate significant energy.
+                    </p>
+                </div>
+
+                <!-- Col 2: Video Player -->
+                <div class="md:col-span-2" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="relative w-full rounded-[2rem] pb-4 bg-[#009150]">
+                        <div class="relative w-full aspect-video rounded-[2rem] overflow-hidden bg-gray-800 group">
+                            <!-- Video Kincir Angin -->
+                            <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                                <source src="{{ asset('videos/home/SocietySRE.mp4') }}" type="video/mp4">
+                            </video>
+                            <!-- Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Col 3: Commercial Solar -->
+                <div class="flex flex-col items-center text-center md:col-span-1" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Commercial Solar<br>Energy</h3>
+                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
+                        We fully utilise the latest corporate renewable energy technology to generate significant energy.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bottom Row: 4 Icons -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Bottom 1 -->
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Inovasi Riset</h3>
+                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
+                        Mengembangkan teknologi energi terbarukan melalui penelitian berkelanjutan.
+                    </p>
+                </div>
+
+                <!-- Bottom 2 -->
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Community</h3>
+                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
+                        Wadah kolaborasi bagi mahasiswa dan praktisi energi bersih di Indonesia.
+                    </p>
+                </div>
+
+                <!-- Bottom 3 -->
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l4 4v10a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Edukasi Publik</h3>
+                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
+                        Menyebarluaskan pengetahuan tentang pentingnya transisi energi hijau.
+                    </p>
+                </div>
+
+                <!-- Bottom 4 -->
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-20 h-20 rounded-full border-2 border-[#009150] flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-[#009150]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#111827] mb-3 font-sans">Aksi Nyata</h3>
+                    <p class="text-[13px] text-gray-500 leading-relaxed font-sans px-2">
+                        Implementasi langsung teknologi ramah lingkungan di masyarakat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 
 <!-- Our Activity Section -->
 <section class="py-32 bg-white relative z-20">

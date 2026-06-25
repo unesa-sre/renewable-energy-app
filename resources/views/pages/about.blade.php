@@ -172,7 +172,7 @@
                     </div>
                     <div id="scroll-01" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop"
+                            <img src="/images/team/guest.png"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -184,7 +184,7 @@
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+                            <img src="/images/team/guest.png"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -237,7 +237,7 @@
                         {{-- Public Relation: 3 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Fawazul Ammar</h4>
@@ -252,7 +252,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Fadil Hasan Al-Rafli E. S.</h4>
@@ -267,7 +267,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">M. Yudhi Wahyu Wibowo</h4>
@@ -284,7 +284,7 @@
                         {{-- Human Resource: 4 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Ikhsan Dwi P.</h4>
@@ -299,7 +299,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Mutia Indah Ramadhani</h4>
@@ -314,7 +314,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sekar Ayu Widura</h4>
@@ -329,7 +329,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Bunga Cantika Rahmatia P.</h4>
@@ -383,7 +383,7 @@
                     <div id="scroll-03" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Dewi Apriliani Inestasia</h4>
@@ -398,7 +398,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Wida Fitri Nabilatul Hamidah</h4>
@@ -413,7 +413,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Reza Mortasefi</h4>
@@ -428,7 +428,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ahmad Naufal Farras R.</h4>
@@ -483,7 +483,7 @@
                         {{-- Graphic Design: 2 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Evan Mulya Simbolon</h4>
@@ -498,7 +498,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Nabila Aminatuzzahro</h4>
@@ -515,7 +515,7 @@
                         {{-- Branding: 2 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Farrel Brilliansyah Putra S</h4>
@@ -530,7 +530,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Tanzilal Ramadhan S</h4>
@@ -547,7 +547,7 @@
                         {{-- Web Development: 1 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Damar Ninuwidarma</h4>
@@ -564,7 +564,7 @@
                         {{-- Treasurer: 1 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ellen Eka Mei A.</h4>
@@ -581,7 +581,7 @@
                         {{-- Secretary: 1 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Salwa Naysila Karvia P</h4>
@@ -635,7 +635,7 @@
                     <div id="scroll-05" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Hafsha Lahfah</h4>
@@ -650,7 +650,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arya Latief</h4>
@@ -665,7 +665,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhajirin Ilham</h4>
@@ -680,7 +680,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sendi Aribi Saputra</h4>
@@ -695,7 +695,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop"
+                                <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Purnama Adi Putra</h4>
