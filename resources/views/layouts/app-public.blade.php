@@ -14,30 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Hanken Grotesk', 'Inter', 'system-ui', 'sans-serif'],
-                        serif: ['Hanken Grotesk', 'Inter', 'system-ui', 'sans-serif'],
-                    },
-                    colors: {
-                        'sre-green': '#009150',
-                        'sre-light-green': '#01ce72',
-                        'sre-dark-green': '#002816',
-                        'sre-yellow': '#facc15',
-                        'energy-green': '#009150',
-                        'energy-blue': '#01ce72',
-                        'energy-dark': '#002816',
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC

@@ -12,24 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: { sans: ['Hanken Grotesk', 'sans-serif'] },
-                    colors: {
-                        'primary': '#009150',
-                        'primary-dark': '#002816',
-                        'secondary': '#01ce72',
-                        'dark': '#002816',
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script>
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark');
