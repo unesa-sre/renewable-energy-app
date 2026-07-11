@@ -163,7 +163,7 @@
 
             <!-- Branded Content Overlay -->
             <div class="relative z-10 w-full h-full text-white">
-                <div data-aos="fade-down" class="absolute top-12 right-12 xl:top-16 xl:right-16 flex items-center gap-6">
+                <div class="absolute top-12 right-12 xl:top-16 xl:right-16 flex items-center gap-6">
                     <img src="{{ asset('images/logo/unesaputih.png') }}" alt="UNESA Logo"
                         class="h-20 sm:h-24 xl:h-32 object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500">
                     <img src="{{ asset('images/logo/navbar-logo-1.png') }}" alt="SRE Logo"
@@ -173,8 +173,6 @@
         </div>
     </div>
 
-    <!-- Alpine.js for password toggle -->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 
 </html>
