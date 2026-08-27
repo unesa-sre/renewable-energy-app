@@ -18,8 +18,7 @@ class ProductController extends Controller
     // Public Listing (Guest and Members)
     public function publicIndex()
     {
-        $products = Product::all();
-        return view('pages.merch', compact('products'));
+        return view('pages.merch-coming-soon');
     }
 
     // CRUD Index
