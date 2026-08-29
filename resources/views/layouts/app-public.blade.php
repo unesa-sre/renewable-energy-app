@@ -17,14 +17,6 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <script>
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
-    </script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
@@ -259,17 +251,14 @@
                     </div>
                     <span class="text-[9px] font-medium text-[#009150] uppercase tracking-wider leading-none">Dash</span>
                 </a>
-            @else
-                <a href="{{ route('login') }}" class="flex flex-col items-center justify-center h-full">
-                    <div class="bg-[#facc15] rounded-[10px] p-1.5 mb-1.5 shadow-sm">
-                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path
-                                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                        </svg>
-                    </div>
-                    <span class="text-[9px] font-medium text-[#009150] uppercase tracking-wider leading-none">Login</span>
-                </a>
             @endauth
+
+            <a href="https://www.unesa.ac.id/" target="_blank" class="flex flex-col items-center justify-center h-full ml-2">
+                <div class="bg-[#facc15] rounded-[10px] p-1.5 mb-1.5 shadow-sm hover:scale-105 transition-transform">
+                    <img src="{{ asset('images/logo/unesaputih.png') }}" alt="UNESA" class="w-5 h-5 object-contain">
+                </div>
+                <span class="text-[9px] font-medium text-[#009150] uppercase tracking-wider leading-none">University</span>
+            </a>
 
             <a href="{{ route('contact') }}" class="flex flex-col items-center justify-center h-full ml-2">
                 <div class="bg-[#facc15] rounded-[10px] p-1.5 mb-1.5 shadow-sm hover:scale-105 transition-transform">
@@ -320,8 +309,6 @@
                     <a href="{{ route('dashboard') }}"
                         class="text-center py-4 rounded-xl bg-[#3b82f6] text-white font-medium uppercase tracking-widest shadow-md">Dashboard</a>
                 @else
-                    <a href="{{ route('login') }}"
-                        class="text-center py-4 rounded-xl border border-slate-200 text-slate-900 font-medium uppercase tracking-wider">Login</a>
                     <a href="{{ route('register') }}"
                         class="text-center py-4 rounded-xl bg-[#facc15] text-white font-medium uppercase tracking-widest shadow-md">Join
                         Community</a>

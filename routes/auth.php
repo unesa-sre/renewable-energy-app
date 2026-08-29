@@ -20,10 +20,10 @@ Route::middleware('guest')->group(function () {
         abort(404);
     });
 
-    Route::get('login', [AuthenticatedSessionController::class, 'create'])
+    Route::get('masukaja', [AuthenticatedSessionController::class, 'create'])
         ->name('login');
 
-    Route::post('login', [AuthenticatedSessionController::class, 'store']);
+    Route::post('masukaja', [AuthenticatedSessionController::class, 'store']);
 
     Route::get('forgot-password', [PasswordResetLinkController::class, 'create'])
         ->name('password.request');

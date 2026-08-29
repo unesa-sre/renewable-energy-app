@@ -461,22 +461,22 @@ The SRE at Surabaya State University was established to create a learning and in
 </div> <!-- End of Master Wrapper (from top) -->
 
 <!-- Social Links Section -->
-<section class="pt-24 pb-40 bg-white relative overflow-hidden">
+<section class="pt-24 pb-40 bg-[#009150] relative overflow-hidden">
     
     <!-- Decorative Elements -->
-    <div class="absolute inset-0 pointer-events-none opacity-5">
-        <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-slate-900 rounded-full blur-[120px] translate-x-1/3 -translate-y-1/3"></div>
-        <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-slate-900 rounded-full blur-[100px] -translate-x-1/3 translate-y-1/3"></div>
+    <div class="absolute inset-0 pointer-events-none opacity-10">
+        <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-white rounded-full blur-[120px] translate-x-1/3 -translate-y-1/3"></div>
+        <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-white rounded-full blur-[100px] -translate-x-1/3 translate-y-1/3"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <!-- Section Header -->
         <div class="max-w-6xl mx-auto mb-16 lg:mb-24 text-left px-4 lg:px-8">
-            <h2 class="text-5xl md:text-7xl lg:text-[7rem] font-black text-[#009150] italic uppercase tracking-tighter leading-none" data-aos="fade-up">
+            <h2 class="text-5xl md:text-7xl lg:text-[7rem] font-black text-white italic uppercase tracking-tighter leading-none" data-aos="fade-up">
                 JOIN THE <br> MOVEMENT
             </h2>
-            <p class="mt-6 text-sm lg:text-base text-slate-600 font-medium tracking-widest uppercase font-sans" data-aos="fade-up" data-aos-delay="100">
+            <p class="mt-6 text-sm lg:text-base text-white/70 font-medium tracking-widest uppercase font-sans" data-aos="fade-up" data-aos-delay="100">
                 BE PART OF OUR SUSTAINABLE ECOSYSTEM
             </p>
         </div>
@@ -484,11 +484,11 @@ The SRE at Surabaya State University was established to create a learning and in
         <div class="space-y-0 max-w-6xl mx-auto">
             
             <!-- INSTAGRAM -->
-            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-slate-200 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-white/20 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="100">
                 <!-- NORMAL STATE -->
                 <div class="relative flex items-center w-full transition-all duration-500 group-hover:opacity-0 group-hover:scale-95 group-hover:-translate-x-12">
                     <div class="w-1/2 flex justify-end pr-8 lg:pr-14">
-                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none">INSTAGRAM</h3>
+                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-white uppercase tracking-tighter leading-none">INSTAGRAM</h3>
                     </div>
                     <div class="shrink-0 relative z-10 flex items-center justify-center">
                         <div class="w-10 h-10 lg:w-14 lg:h-14 bg-[#fcd303] rounded-full flex items-center justify-center shadow-sm">
@@ -496,8 +496,8 @@ The SRE at Surabaya State University was established to create a learning and in
                         </div>
                     </div>
                     <div class="w-1/2 pl-8 lg:pl-14 flex flex-col justify-center text-left">
-                        <span class="text-xs lg:text-sm font-medium text-slate-500 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL ACCOUNT</span>
-                        <span class="text-xs lg:text-sm font-medium text-slate-600 uppercase tracking-widest font-sans">@ECOFUTURE_OFFICIAL</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/60 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL ACCOUNT</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/80 uppercase tracking-widest font-sans">@ECOFUTURE_OFFICIAL</span>
                     </div>
                 </div>
                 <!-- HOVER STATE -->
@@ -510,12 +510,12 @@ The SRE at Surabaya State University was established to create a learning and in
             </a>
 
             <!-- TIKTOK -->
-            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-slate-200 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-white/20 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="200">
                 <!-- NORMAL STATE -->
                 <div class="relative flex items-center w-full transition-all duration-500 group-hover:opacity-0 group-hover:scale-95 group-hover:translate-x-12">
                     <div class="w-1/2 pr-8 lg:pr-14 flex flex-col justify-center items-end text-right">
-                        <span class="text-xs lg:text-sm font-medium text-slate-500 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL ACCOUNT</span>
-                        <span class="text-xs lg:text-sm font-medium text-slate-600 uppercase tracking-widest font-sans">@ECOFUTURE_ECO</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/60 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL ACCOUNT</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/80 uppercase tracking-widest font-sans">@ECOFUTURE_ECO</span>
                     </div>
                     <div class="shrink-0 relative z-10 flex items-center justify-center">
                         <div class="w-10 h-10 lg:w-14 lg:h-14 bg-[#fcd303] rounded-full flex items-center justify-center shadow-sm">
@@ -523,7 +523,7 @@ The SRE at Surabaya State University was established to create a learning and in
                         </div>
                     </div>
                     <div class="w-1/2 flex justify-start pl-8 lg:pl-14">
-                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none">TIKTOK</h3>
+                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-white uppercase tracking-tighter leading-none">TIKTOK</h3>
                     </div>
                 </div>
                 <!-- HOVER STATE -->
@@ -536,11 +536,11 @@ The SRE at Surabaya State University was established to create a learning and in
             </a>
 
             <!-- YOUTUBE -->
-            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-slate-200 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-white/20 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="300">
                 <!-- NORMAL STATE -->
                 <div class="relative flex items-center w-full transition-all duration-500 group-hover:opacity-0 group-hover:scale-95 group-hover:-translate-x-12">
                     <div class="w-1/2 flex justify-end pr-8 lg:pr-14">
-                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none">YOUTUBE</h3>
+                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-white uppercase tracking-tighter leading-none">YOUTUBE</h3>
                     </div>
                     <div class="shrink-0 relative z-10 flex items-center justify-center">
                         <div class="w-10 h-10 lg:w-14 lg:h-14 bg-[#fcd303] rounded-full flex items-center justify-center shadow-sm">
@@ -548,8 +548,8 @@ The SRE at Surabaya State University was established to create a learning and in
                         </div>
                     </div>
                     <div class="w-1/2 pl-8 lg:pl-14 flex flex-col justify-center text-left">
-                        <span class="text-xs lg:text-sm font-medium text-slate-500 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL CHANNEL</span>
-                        <span class="text-xs lg:text-sm font-medium text-slate-600 uppercase tracking-widest font-sans">ECOFUTURE OFFICIAL</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/60 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL CHANNEL</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/80 uppercase tracking-widest font-sans">ECOFUTURE OFFICIAL</span>
                     </div>
                 </div>
                 <!-- HOVER STATE -->
@@ -562,12 +562,12 @@ The SRE at Surabaya State University was established to create a learning and in
             </a>
 
             <!-- WHATSAPP -->
-            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-slate-200 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="400">
+            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-white/20 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="400">
                 <!-- NORMAL STATE -->
                 <div class="relative flex items-center w-full transition-all duration-500 group-hover:opacity-0 group-hover:scale-95 group-hover:translate-x-12">
                     <div class="w-1/2 pr-8 lg:pr-14 flex flex-col justify-center items-end text-right">
-                        <span class="text-xs lg:text-sm font-medium text-slate-500 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">CUSTOMER SERVICE</span>
-                        <span class="text-xs lg:text-sm font-medium text-slate-600 uppercase tracking-widest font-sans">+62 812-3456-7890</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/60 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">CUSTOMER SERVICE</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/80 uppercase tracking-widest font-sans">+62 812-3456-7890</span>
                     </div>
                     <div class="shrink-0 relative z-10 flex items-center justify-center">
                         <div class="w-10 h-10 lg:w-14 lg:h-14 bg-[#fcd303] rounded-full flex items-center justify-center shadow-sm">
@@ -575,7 +575,7 @@ The SRE at Surabaya State University was established to create a learning and in
                         </div>
                     </div>
                     <div class="w-1/2 flex justify-start pl-8 lg:pl-14">
-                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none">WHATSAPP</h3>
+                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-white uppercase tracking-tighter leading-none">WHATSAPP</h3>
                     </div>
                 </div>
                 <!-- HOVER STATE -->
@@ -588,11 +588,11 @@ The SRE at Surabaya State University was established to create a learning and in
             </a>
 
             <!-- SHOPEE -->
-            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-slate-200 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+            <a href="#" class="relative group flex items-center justify-center py-6 px-4 lg:px-8 border-b border-white/20 transition-all duration-500 hover:bg-[#fcd303] hover:border-transparent rounded-2xl min-h-[120px] lg:min-h-[140px] overflow-hidden" data-aos="fade-up" data-aos-delay="500">
                 <!-- NORMAL STATE -->
                 <div class="relative flex items-center w-full transition-all duration-500 group-hover:opacity-0 group-hover:scale-95 group-hover:-translate-x-12">
                     <div class="w-1/2 flex justify-end pr-8 lg:pr-14">
-                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none">SHOPEE</h3>
+                        <h3 class="text-3xl md:text-5xl lg:text-7xl font-black text-white uppercase tracking-tighter leading-none">SHOPEE</h3>
                     </div>
                     <div class="shrink-0 relative z-10 flex items-center justify-center">
                         <div class="w-10 h-10 lg:w-14 lg:h-14 bg-[#fcd303] rounded-full flex items-center justify-center shadow-sm">
@@ -600,8 +600,8 @@ The SRE at Surabaya State University was established to create a learning and in
                         </div>
                     </div>
                     <div class="w-1/2 pl-8 lg:pl-14 flex flex-col justify-center text-left">
-                        <span class="text-xs lg:text-sm font-medium text-slate-500 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL STORE</span>
-                        <span class="text-xs lg:text-sm font-medium text-slate-600 uppercase tracking-widest font-sans">ECOFUTURE.STORE</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/60 uppercase tracking-widest leading-relaxed font-sans block mb-0.5">OFFICIAL STORE</span>
+                        <span class="text-xs lg:text-sm font-medium text-white/80 uppercase tracking-widest font-sans">ECOFUTURE.STORE</span>
                     </div>
                 </div>
                 <!-- HOVER STATE -->
