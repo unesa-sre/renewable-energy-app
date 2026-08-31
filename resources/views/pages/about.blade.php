@@ -137,7 +137,6 @@
             </div>
         </section>
 
-        {{-- 01 Departemen Eksekutif --}}
         <section
             class="sticky top-0 z-[31] bg-white min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
@@ -146,11 +145,11 @@
                         <div class="flex items-center gap-4 text-emerald-600 font-bold tracking-widest mb-6">
                             <span class="text-sm">01</span>
                             <div class="w-10 h-px bg-emerald-500"></div>
-                            <span class="text-sm">DIVISION</span>
+                            <span class="text-sm"></span>
                         </div>
                         <h2
                             class="text-5xl lg:text-6xl font-[900] text-slate-900 mb-6 leading-tight uppercase tracking-tighter">
-                            Eksekutif</h2>
+                            BOARD OF EXECUTIVE</h2>
                         <p class="text-slate-600 text-base leading-relaxed mb-10 max-w-sm font-medium">
                             Menentukan arah strategis organisasi, menjamin kelancaran operasional, dan membangun visi energi
                             masa depan.
@@ -176,11 +175,10 @@
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">Andre
-                                    Wijaya</h4>
+                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">MICHAEL ORLANDO WIBISONO</h4>
                                 <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Chief
-                                    Executive Officer</p>
+                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">President</p>
+                                <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin</p>
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
@@ -188,11 +186,54 @@
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
-                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">Sarah
-                                    Quinn</h4>
+                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">MUHAMAD HAFIZH SAUDI PUTRA</h4>
                                 <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Chief
-                                    Operational Officer</p>
+                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Vice President</p>
+                                <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                            <img src="/images/team/guest.png"
+                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
+                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">IBNU IS'AF ADIBRATA</h4>
+                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Secretary 1</p>
+                                <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                            <img src="/images/team/guest.png"
+                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
+                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">SALWA NAYSILA KARVIA PUTRI</h4>
+                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Secretary 2</p>
+                                <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Perencanaan Wilayah Dan Kota</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                            <img src="/images/team/guest.png"
+                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
+                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">EMINA CHANDRAKANTHI</h4>
+                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Treasurer 1</p>
+                                <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Ekonomi</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                            <img src="/images/team/guest.png"
+                                class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
+                                <h4 class="text-3xl font-black text-white text-center uppercase tracking-tight mb-2">ELLEN EKA MEI ANDINI</h4>
+                                <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Treasurer 2</p>
+                                <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Elektro</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +241,6 @@
             </div>
         </section>
 
-        {{-- 02 Departemen Operasional --}}
         <section
             class="sticky top-0 z-[32] bg-emerald-600 min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
@@ -209,11 +249,11 @@
                         <div class="flex items-center gap-4 text-emerald-300 font-bold tracking-widest mb-6">
                             <span class="text-sm">02</span>
                             <div class="w-10 h-px bg-emerald-400"></div>
-                            <span class="text-sm">DIVISION</span>
+                            <span class="text-sm">DEPARTMENT</span>
                         </div>
                         <h2
                             class="text-5xl lg:text-6xl font-[900] text-white mb-6 leading-tight uppercase tracking-tighter">
-                            Department Capacity Building</h2>
+                            Capacity Building</h2>
                         <p class="text-emerald-50/60 text-base leading-relaxed mb-10 max-w-sm font-medium">
                             Mengelola instalasi lapangan, memastikan perawatan infrastruktur, dan kendali mutu teknis sistem
                             energi.
@@ -234,20 +274,18 @@
                         </div>
                     </div>
                     <div id="scroll-02" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
-                        {{-- Public Relation: 3 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Fawazul Ammar</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">RYAN RIZKY MAHENDRA</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Sains Data</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Capacity Building</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Public Relation</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -255,14 +293,13 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Fadil Hasan Al-Rafli E. S.</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">NEVRINA ZAHWA PRATIWI</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Public Relation</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Pendidikan Biologi 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Public Relation</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -270,31 +307,13 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">M. Yudhi Wahyu Wibowo</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">FAWAZUL 'AMMAR</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sains Data 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Public Relation</p>
-                            </div>
-                        </div>
-
-                        {{-- Human Resource: 4 anggota --}}
-                        <div class="min-w-[280px] flex flex-col gap-3">
-                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
-                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Ikhsan Dwi P.</h4>
-                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">D4 Teknik Listrik</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
-                                </div>
-                            </div>
-                            <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -302,14 +321,97 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Mutia Indah Ramadhani</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">FADIL HASAN AL RAFLI E.S</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Elektro 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">DILLA NUR RIZKYANI</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Ekonomi 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">MUHAMMAD YUDHI WAHYU WIBOWO</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Elektro 25</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">AKBARRULLAH DWI PUTRA WICAKSONO</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Human Resource</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">BUNGA CANTIKA RAHMATIA PUTRI</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Human Resource</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Psikologi 25</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Ikhsan Dwi Putra</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Human Resource</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">D4 Teknik Listrik 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">MUTIA INDAH RAMADHANI</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Human Resource</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -319,27 +421,11 @@
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sekar Ayu Widura</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Pend. Fisika</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Human Resource</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Pendidikan Fisika 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
-                            </div>
-                        </div>
-                        <div class="min-w-[280px] flex flex-col gap-3">
-                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
-                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Bunga Cantika Rahmatia P.</h4>
-                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Psikologi</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
-                                </div>
-                            </div>
-                            <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Human Resource</p>
                             </div>
                         </div>
                     </div>
@@ -347,7 +433,6 @@
             </div>
         </section>
 
-        {{-- 03 Departemen Riset & Teknologi --}}
         <section
             class="sticky top-0 z-[33] bg-white min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
@@ -356,11 +441,11 @@
                         <div class="flex items-center gap-4 text-emerald-600 font-bold tracking-widest mb-6">
                             <span class="text-sm">03</span>
                             <div class="w-10 h-px bg-emerald-500"></div>
-                            <span class="text-sm">DIVISION</span>
+                            <span class="text-sm">DEPARTMENT</span>
                         </div>
                         <h2
                             class="text-5xl lg:text-6xl font-[900] text-slate-900 mb-6 leading-tight uppercase tracking-tighter">
-                            Department Business Development</h2>
+                            Business Development</h2>
                         <p class="text-slate-600 text-base leading-relaxed mb-10 max-w-sm font-medium">
                             Mengembangkan inovasi teknologi berbasis EBT dan melakukan studi mendalam untuk efisiensi energi
                             berkelanjutan.
@@ -386,14 +471,13 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Dewi Apriliani Inestasia</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Febrio Fadillah</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Pend. Bisnis</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Business Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -403,12 +487,11 @@
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Wida Fitri Nabilatul Hamidah</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Business Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Sipil 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -418,12 +501,11 @@
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Reza Mortasefi</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Sistem Informasi</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Business Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sistem Informasi 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -431,14 +513,27 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ahmad Naufal Farras R.</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">AHMAD NAUFAL FARRAS RIFAI</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Business Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Business Development</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Dewi Apriliani Inestasia</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Business Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Pendidikan Bisnis 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
                             </div>
                         </div>
                     </div>
@@ -446,7 +541,6 @@
             </div>
         </section>
 
-        {{-- 04 Departemen Edukasi --}}
         <section
             class="sticky top-0 z-[34] bg-emerald-600 min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
@@ -455,11 +549,11 @@
                         <div class="flex items-center gap-4 text-emerald-300 font-bold tracking-widest mb-6">
                             <span class="text-sm">04</span>
                             <div class="w-10 h-px bg-emerald-400"></div>
-                            <span class="text-sm">DIVISION</span>
+                            <span class="text-sm">DEPARTMENT</span>
                         </div>
                         <h2
                             class="text-5xl lg:text-6xl font-[900] text-white mb-6 leading-tight uppercase tracking-tighter">
-                            Department Digital Media and Brand Experience</h2>
+                            Digital Media & Brand Experience</h2>
                         <p class="text-emerald-50/60 text-base leading-relaxed mb-10 max-w-sm font-medium">
                             Menyebarluaskan literasi energi alternatif ke masyarakat luas melalui program pelatihan dan
                             pengabdian.
@@ -480,7 +574,34 @@
                         </div>
                     </div>
                     <div id="scroll-04" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
-                        {{-- Graphic Design: 2 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">ANDHIKA GARIN WIJAKSANA</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Digital Media & Brand Experience</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">SILMAH AMIRATUNNA'ILAH</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Graphics & Design</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Pendidikan Matematika 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
                                 <img src="/images/team/guest.png"
@@ -488,12 +609,11 @@
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Evan Mulya Simbolon</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Sistem Informatika</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Graphics & Design</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sistem Informatika 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Graphic Design</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -503,29 +623,39 @@
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Nabila Aminatuzzahro</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Matematika</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Graphics & Design</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Matematika 25</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Graphic Design</p>
                             </div>
                         </div>
-
-                        {{-- Branding: 2 anggota --}}
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Farrel Brilliansyah Putra S</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">KHAN NASYWA ZIBRIJ HABIBI</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Branding</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sistem Informasi 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Branding</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Farrel Brilliansyah Putra Siswoyo</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Branding</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -535,16 +665,42 @@
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Tanzilal Ramadhan S</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Branding</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Sipil 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Branding</p>
                             </div>
                         </div>
 
-                        {{-- Web Development: 1 anggota --}}
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Rafi Athillah Firmansyah</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Web Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sistem Informasi 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ian Frissaad</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Web Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sistem Informasi 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
                                 <img src="/images/team/guest.png"
@@ -552,46 +708,11 @@
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Damar Ninuwidarma</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Informatika</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Web Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Informatika 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Web Development</p>
-                            </div>
-                        </div>
-
-                        {{-- Treasurer: 1 anggota --}}
-                        <div class="min-w-[280px] flex flex-col gap-3">
-                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
-                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ellen Eka Mei A.</h4>
-                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
-                                </div>
-                            </div>
-                            <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Treasurer</p>
-                            </div>
-                        </div>
-
-                        {{-- Secretary: 1 anggota --}}
-                        <div class="min-w-[280px] flex flex-col gap-3">
-                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
-                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Salwa Naysila Karvia P</h4>
-                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Perencanaan Wilayah dan Kota</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
-                                </div>
-                            </div>
-                            <div class="text-center px-2">
-                                <p class="text-white text-xs font-semibold uppercase tracking-widest">Secretary</p>
                             </div>
                         </div>
                     </div>
@@ -599,7 +720,6 @@
             </div>
         </section>
 
-        {{-- 05 Humas & Media --}}
         <section
             class="sticky top-0 z-[35] bg-white min-h-screen py-32 rounded-t-[5rem] lg:rounded-t-[8rem] flex items-center overflow-hidden">
             <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 w-full">
@@ -608,11 +728,11 @@
                         <div class="flex items-center gap-4 text-emerald-600 font-bold tracking-widest mb-6">
                             <span class="text-sm">05</span>
                             <div class="w-10 h-px bg-emerald-500"></div>
-                            <span class="text-sm">DIVISION</span>
+                            <span class="text-sm">DEPARTMENT</span>
                         </div>
                         <h2
                             class="text-5xl lg:text-6xl font-[900] text-slate-900 mb-6 leading-tight uppercase tracking-tighter">
-                            Department Research and Development</h2>
+                            Research & Development</h2>
                         <p class="text-slate-600 text-base leading-relaxed mb-10 max-w-sm font-medium">
                             Membangun citra positif organisasi dan menjalin kerjasama strategis dengan pihak eksternal serta
                             media massa.
@@ -638,14 +758,13 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Hafsha Lahfah</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Bagus Hendra Saputra</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Mesin</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Head of Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -653,14 +772,13 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arya Latief</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arina Manasikana</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Biologi 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -668,14 +786,13 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhajirin Ilham</h4>
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">NAINA ALIFYA RIFHANA</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Sipil</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2024</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Pendidikan Biologi 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -685,12 +802,11 @@
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sendi Aribi Saputra</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Pertambangan</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Pertambangan 25</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
                             </div>
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
@@ -700,12 +816,53 @@
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Purnama Adi Putra</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">S1 Teknik Elektro</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">Angkatan 2025</p>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Elektro 25</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
-                                <p class="text-slate-900 text-xs font-semibold uppercase tracking-widest">Research and Development</p>
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">ACHMAD MUHAJIRIN ILHAM</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Sipil 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">HAFSHAH LAHFAH AZZAHRA</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Mesin 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                        <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
+                                <img src="/images/team/guest.png"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arya Latief</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Research & Development</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Teknik Sipil 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
                             </div>
                         </div>
                     </div>
