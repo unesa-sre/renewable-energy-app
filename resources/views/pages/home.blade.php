@@ -50,9 +50,7 @@
             <!-- Left: Text -->
             <div data-aos="fade-right" class="space-y-6">
                 <p class="text-slate-700 leading-relaxed font-medium">
-                    Amidst the global transition to clean energy and Indonesia's Net Zero Emissions 2060 commitment, renewable energy development requires the support of competent human resources. However, practical platforms within campuses to facilitate student learning and collaboration in this energy sector remain very limited. Surabaya State University (Unesa) has significant potential to address this challenge through students with strong science and engineering backgrounds. Therefore, the establishment of the Unesa Society of Renewable Energy (SRE) is a strategic step in providing a structured learning and research center to prepare the younger generation to face future energy challenges.
-
-The SRE at Surabaya State University was established to create a learning and innovation ecosystem in the renewable energy sector.
+                    Society of Renewable Energy (SRE) Universitas Negeri Surabaya merupakan organisasi mahasiswa yang baru direncanakan untuk mendukung transisi energi nasional menuju sumber energi bersih dan berkelanjutan. SRE Unesa difokuskan sebagai wadah pembelajaran terstruktur, diskusi ilmiah, serta pengembangan kompetensi energi terbarukan bagi mahasiswa lintas jurusan, khususnya dari latar belakang teknik dan sains di Unesa.
                 </p>
                 <p class="text-slate-700 leading-relaxed font-medium">
                     SRE Universitas Negeri Surabaya didirikan untuk menciptakan ekosistem pembelajaran dan inovasi di bidang energi terbarukan.

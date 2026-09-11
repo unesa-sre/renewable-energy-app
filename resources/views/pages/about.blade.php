@@ -15,7 +15,7 @@
                 </div>
                 <div class="text-lg text-slate-600 leading-relaxed font-medium px-4 text-center space-y-6">
                     <p>
-                        Society of Renewable Energy (SRE) Universitas Negeri Surabaya merupakan organisasi mahasiswa yang baru direncanakan untuk mendukung transisi energi nasional menuju sumber energi bersih dan berkelanjutan. SRE Unesa difokuskan sebagai wadah pembelajaran terstruktur, diskusi ilmiah, serta pengembangan kompetensi energi terbarukan bagi mahasiswa lintas jurusan, khususnya dari latar belakang teknik dan sains di Unesa.
+                        "Society of Renewable Energy (SRE) Universitas Negeri Surabaya merupakan organisasi mahasiswa yang baru direncanakan untuk mendukung transisi energi nasional menuju sumber energi bersih dan berkelanjutan. SRE Unesa difokuskan sebagai wadah pembelajaran terstruktur, diskusi ilmiah, serta pengembangan kompetensi energi terbarukan bagi mahasiswa lintas jurusan, khususnya dari latar belakang teknik dan sains di Unesa."
                     </p>
                     <p>
                         SRE Universitas Negeri Surabaya didirikan untuk menciptakan ekosistem pembelajaran dan inovasi di bidang energi terbarukan.
@@ -34,7 +34,7 @@
                         Visi <span class="text-white">&</span> Misi
                     </h1>
                     <p class="text-slate-800 font-bold text-sm opacity-60 tracking-widest uppercase">
-                        EcoFuture Strategic Plan
+                        Societ of Renewable Energy X Universitas Negeri Surabaya
                     </p>
                 </div>
 
@@ -44,9 +44,7 @@
                         <h2 class="text-emerald-600 font-extrabold text-sm mb-3 tracking-tight uppercase">Vision</h2>
                         <div class="relative pl-6 border-l-4 border-emerald-500">
                             <p class="text-slate-700 italic text-base lg:text-lg leading-relaxed font-medium">
-                                "Establish EcoFuture as a center for education and innovation in renewable energy, creating
-                                a generation of competent, competitive, and impactful contributors to sustainable
-                                development in Indonesia."
+                                "• Mengembangkan ekosistem pembelajaran energi terbarukan yang teknis, terstruktur dan mudah diakses semua mahasiswa."
                             </p>
                         </div>
                     </div>
@@ -59,33 +57,36 @@
                                 <div
                                     class="shrink-0 w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xs font-bold mt-0.5">
                                     1</div>
-                                <p class="text-slate-600 text-xs leading-relaxed font-medium">Empower members to become
-                                    change agents in renewable energy through innovative education and training programs.
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">Mengembangkan ekosistem pembelajaran energi terbarukan yang teknis, terstruktur dan mudah diakses semua mahasiswa.
                                 </p>
                             </div>
                             <div class="flex gap-3">
                                 <div
                                     class="shrink-0 w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xs font-bold mt-0.5">
                                     2</div>
-                                <p class="text-slate-600 text-xs leading-relaxed font-medium">Offer opportunities for
-                                    members to engage in research and innovation, contributing impactful solutions for
-                                    society.</p>
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">
+                                    Mendorong budaya riset melalui kajian ilmiah, penelitian skala kecil, dan proyek energi berbasis data..</p>
                             </div>
                             <div class="flex gap-3">
                                 <div
                                     class="shrink-0 w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xs font-bold mt-0.5">
                                     3</div>
-                                <p class="text-slate-600 text-xs leading-relaxed font-medium">Foster members' growth with a
-                                    hands-on curriculum, equipping them to understand and teach renewable energy concepts
-                                    effectively.</p>
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">
+                                    Membangun organisasi yang profesional, disiplin, dan berintegritas melalui SOP serta manajemen internal yang kuat.</p>
                             </div>
                             <div class="flex gap-3">
                                 <div
                                     class="shrink-0 w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xs font-bold mt-0.5">
                                     4</div>
-                                <p class="text-slate-600 text-xs leading-relaxed font-medium">Apply knowledge and skills
-                                    through community service and educational programs, raising awareness about renewable
-                                    energy.</p>
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">
+                                    Menjalin kolaborasi strategis dengan industri, lembaga profesional, komunitas energi nasional dan akademik.</p>
+                            </div>
+                            <div class="flex gap-3">
+                                <div
+                                    class="shrink-0 w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xs font-bold mt-0.5">
+                                    5</div>
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">
+                                    Meningkatkan literasi energi bersih dan kesadaran mahasiswa terhadap urgensi transusu energi masa depan..</p>
                             </div>
                         </div>
                     </div>
@@ -103,7 +104,7 @@
                         Struktur <span class="text-emerald-600">Organisasi</span>
                     </h1>
                     <p class="text-slate-400 font-bold text-sm tracking-widest uppercase">
-                        SRE UNESA
+                        Societ of Renewable Energy X Universitas Negeri Surabaya
                     </p>
                 </div>
 
@@ -130,7 +131,7 @@
                     <div
                         class="flex items-center justify-center gap-4 text-emerald-100 font-bold tracking-[0.4em] text-xs uppercase">
                         <div class="w-8 h-px bg-emerald-400"></div>
-                        <span>Tim Strategis EcoFuture</span>
+                        <span>Societyet of Renewable Energy X Universitas Negeri Surabaya</span>
                         <div class="w-8 h-px bg-emerald-400"></div>
                     </div>
                 </div>
