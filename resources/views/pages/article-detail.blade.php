@@ -46,7 +46,7 @@
 
     <!-- Content -->
     <div class="prose prose-lg max-w-none text-gray-600 leading-relaxed font-medium mb-16">
-        {!! nl2br(e($article->content)) !!}
+        {!! $article->content !!}
     </div>
 
     <!-- Tags and Share -->
@@ -68,6 +68,14 @@
 </div>
 
 <style>
+    .prose img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        margin: 1.5rem auto;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+        display: block;
+    }
     .prose blockquote {
         border-left: 4px solid #10b981 !important;
         padding-left: 1.5rem !important;

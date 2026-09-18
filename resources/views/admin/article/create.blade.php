@@ -111,10 +111,10 @@
 (function() {
     // Quill editor
     var toolbarOptions = [
-        ['bold', 'italic', 'underline', 'strike'],
-        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-        ['blockquote'],
         [{ 'header': [1, 2, 3, false] }],
+        ['bold', 'italic', 'underline', 'strike'],
+        ['image', 'link', 'blockquote'],
+        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
         ['clean']
     ];
 
