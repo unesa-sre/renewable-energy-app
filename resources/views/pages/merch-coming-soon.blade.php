@@ -215,63 +215,37 @@
             </a>
         </div>
 
-        <!-- Teaser Products Section (Highly Visual Cards) -->
-        <div class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-0">
-            
-            <!-- Card 1: Shirt -->
-            <div class="bg-gradient-to-b from-white to-[#f6fcf8] border border-[#009150]/15 rounded-[2.2rem] p-10 flex flex-col items-center justify-center relative overflow-hidden group hover:border-[#01ce72]/45 hover:shadow-2xl transition-all duration-500">
-                <!-- Gold Badge -->
-                <span class="absolute top-4 right-4 bg-gradient-to-r from-[#facc15] to-[#f59e0b] text-[#002816] text-[8px] font-black px-3.5 py-1.5 rounded-full uppercase tracking-widest shadow-md select-none">
-                    COMING SOON
-                </span>
+        <!-- More Information Instagram Redirect Button Section -->
+        <div class="w-full max-w-xl px-4 sm:px-0">
+            <a href="https://www.instagram.com/sreunesa.merch/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #009150 0%, #005a32 50%, #002816 100%); color: #ffffff;"
+               class="group relative flex items-center justify-between gap-4 p-5 sm:p-6 rounded-[2.2rem] shadow-2xl border border-[#01ce72] transition-all duration-500 hover:-translate-y-1 active:translate-y-0">
                 
-                <!-- Silhouette Circle -->
-                <div class="w-24 h-24 bg-[#009150]/5 text-[#009150] rounded-[1.8rem] flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-[#01ce72]/10 transition-all duration-500">
-                    <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 4L9 7v2h6V7l3-3 3 5.5-3.5 1.5V20H6.5V11L3 9.5 6 4z" />
-                        <path d="M12 11c.5 1.5 2 1.5 2 1.5" stroke-width="1" />
+                <!-- Instagram Icon & Text Container -->
+                <div class="flex items-center gap-4">
+                    <div style="background-color: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.25);"
+                         class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center text-white group-hover:scale-110 group-hover:bg-gradient-to-tr group-hover:from-[#f09433] group-hover:via-[#dc2743] group-hover:to-[#bc1888] transition-all duration-500 shrink-0">
+                        <!-- Instagram SVG Icon -->
+                        <svg style="color: #ffffff;" class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </div>
+                    <div class="text-left">
+                        <span style="color: #6effb9;" class="block text-[11px] font-black uppercase tracking-widest mb-0.5">@sreunesa.merch</span>
+                        <h3 style="color: #ffffff;" class="text-base sm:text-lg font-black tracking-wider uppercase">More Information</h3>
+                    </div>
+                </div>
+
+                <!-- External Arrow Icon -->
+                <div style="background-color: rgba(255, 255, 255, 0.2); color: #ffffff;" 
+                     class="w-10 h-10 rounded-full group-hover:bg-[#facc15] group-hover:text-emerald-950 flex items-center justify-center transition-all duration-300 shrink-0">
+                    <svg style="color: #ffffff;" class="w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                     </svg>
                 </div>
-                
-                <h3 class="text-base font-black text-[#002816] uppercase tracking-wider mb-2 group-hover:text-[#009150] transition-colors">Official T-Shirt</h3>
-                <p class="text-xs text-slate-500 text-center max-w-[200px] leading-relaxed">High quality organic cotton styled with SRE iconic elements.</p>
-            </div>
-            
-            <!-- Card 2: Cap -->
-            <div class="bg-gradient-to-b from-white to-[#f6fcf8] border border-[#009150]/15 rounded-[2.2rem] p-10 flex flex-col items-center justify-center relative overflow-hidden group hover:border-[#01ce72]/45 hover:shadow-2xl transition-all duration-500">
-                <span class="absolute top-4 right-4 bg-gradient-to-r from-[#facc15] to-[#f59e0b] text-[#002816] text-[8px] font-black px-3.5 py-1.5 rounded-full uppercase tracking-widest shadow-md select-none">
-                    COMING SOON
-                </span>
-                
-                <div class="w-24 h-24 bg-[#009150]/5 text-[#009150] rounded-[1.8rem] flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-[#01ce72]/10 transition-all duration-500">
-                    <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 6a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        <path d="M4 13c-1.5.5-2.5 1.5-2.5 2.5S3 17 6.5 17h11c3.5 0 5-1 5-1.5s-1-2-2.5-2.5" />
-                        <circle cx="12" cy="6" r="1" />
-                    </svg>
-                </div>
-                
-                <h3 class="text-base font-black text-[#002816] uppercase tracking-wider mb-2 group-hover:text-[#009150] transition-colors">Official Cap</h3>
-                <p class="text-xs text-slate-500 text-center max-w-[200px] leading-relaxed">Sleek embroidered design with adjustable backstrap.</p>
-            </div>
-            
-            <!-- Card 3: Tote Bag -->
-            <div class="bg-gradient-to-b from-white to-[#f6fcf8] border border-[#009150]/15 rounded-[2.2rem] p-10 flex flex-col items-center justify-center relative overflow-hidden group hover:border-[#01ce72]/45 hover:shadow-2xl transition-all duration-500">
-                <span class="absolute top-4 right-4 bg-gradient-to-r from-[#facc15] to-[#f59e0b] text-[#002816] text-[8px] font-black px-3.5 py-1.5 rounded-full uppercase tracking-widest shadow-md select-none">
-                    COMING SOON
-                </span>
-                
-                <div class="w-24 h-24 bg-[#009150]/5 text-[#009150] rounded-[1.8rem] flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-[#01ce72]/10 transition-all duration-500">
-                    <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 9V6a6 6 0 0112 0v3" />
-                        <rect x="4" y="9" width="16" height="12" rx="2" />
-                        <path d="M9 13.5c1.5 1.5 4.5 1.5 6 0" stroke-width="1" />
-                    </svg>
-                </div>
-                
-                <h3 class="text-base font-black text-[#002816] uppercase tracking-wider mb-2 group-hover:text-[#009150] transition-colors">Official Tote Bag</h3>
-                <p class="text-xs text-slate-500 text-center max-w-[200px] leading-relaxed">Heavyweight organic canvas bag for daily sustainable routines.</p>
-            </div>
+            </a>
         </div>
     </div>
 
