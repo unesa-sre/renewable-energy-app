@@ -55,7 +55,7 @@
                             class="text-xl font-bold text-slate-800 dark:text-white leading-tight mb-4 group-hover:text-primary transition line-clamp-2">
                             {{ $article->title }}</h3>
                         <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-6 line-clamp-3">
-                            {{ $article->excerpt ?? Str::limit(strip_tags($article->content), 120) }}</p>
+                            {{ $article->excerpt ?? Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags($article->content), ENT_QUOTES | ENT_HTML5, 'UTF-8'))), 120) }}</p>
 
                         <div class="mt-auto pt-6 border-t border-slate-50 dark:border-slate-800">
                             <a href="{{ route('milestone.article.show', $article) }}"

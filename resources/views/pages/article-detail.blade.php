@@ -3,7 +3,7 @@
 @section('title', $article->title)
 
 @section('content')
-<div class="max-w-4xl mx-auto px-4 py-16 md:py-24 font-sans">
+<div class="max-w-4xl mx-auto px-4 py-16 md:py-24 font-sans overflow-hidden">
     
     <!-- Breadcrumb -->
     <div class="flex items-center gap-2 text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-widest mb-8">
@@ -15,7 +15,7 @@
     </div>
 
     <!-- Title -->
-    <h1 class="text-3xl md:text-5xl font-extrabold text-[#111827] leading-tight mb-8 tracking-tight">
+    <h1 class="text-3xl md:text-5xl font-extrabold text-[#111827] leading-tight mb-8 tracking-tight break-words">
         {{ $article->title }}
     </h1>
 
@@ -45,8 +45,8 @@
     @endif
 
     <!-- Content -->
-    <div class="prose prose-lg max-w-none text-gray-600 leading-relaxed font-medium mb-16">
-        {!! $article->content !!}
+    <div class="prose prose-lg max-w-none text-gray-600 leading-relaxed font-medium mb-16 break-words overflow-hidden w-full">
+        {!! str_replace(['&nbsp;', 'nbsp;'], ' ', $article->content) !!}
     </div>
 
     <!-- Tags and Share -->
@@ -68,13 +68,82 @@
 </div>
 
 <style>
+    .prose {
+        word-break: normal !important;
+        overflow-wrap: break-word !important;
+        max-width: 100% !important;
+    }
+    .prose * {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    .prose p {
+        margin-bottom: 1.5rem !important;
+        line-height: 1.85 !important;
+    }
+    .prose p:last-child {
+        margin-bottom: 0 !important;
+    }
+    .prose h1 {
+        font-size: 2.25rem !important;
+        margin-top: 2.5rem !important;
+        margin-bottom: 1.25rem !important;
+        font-weight: 800 !important;
+        color: #111827 !important;
+    }
+    .prose h2 {
+        font-size: 1.75rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+        font-weight: 800 !important;
+        color: #111827 !important;
+    }
+    .prose h3 {
+        font-size: 1.35rem !important;
+        margin-top: 1.75rem !important;
+        margin-bottom: 0.75rem !important;
+        font-weight: 700 !important;
+        color: #111827 !important;
+    }
+    .prose ul {
+        list-style-type: disc !important;
+        margin-bottom: 1.5rem !important;
+        padding-left: 1.75rem !important;
+    }
+    .prose ol {
+        list-style-type: decimal !important;
+        margin-bottom: 1.5rem !important;
+        padding-left: 1.75rem !important;
+    }
+    .prose li {
+        margin-bottom: 0.5rem !important;
+    }
     .prose img {
-        max-width: 100%;
-        height: auto;
+        max-width: 100% !important;
+        height: auto !important;
         border-radius: 1rem;
-        margin: 1.5rem auto;
+        margin: 2rem auto !important;
         box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
         display: block;
+        object-fit: contain;
+    }
+    .prose table {
+        display: block !important;
+        width: 100% !important;
+        overflow-x: auto !important;
+        border-collapse: collapse;
+        margin-bottom: 1.5rem !important;
+    }
+    .prose p, .prose span, .prose strong, .prose h1, .prose h2, .prose h3, .prose li {
+        word-break: normal !important;
+        overflow-wrap: break-word !important;
+        white-space: normal !important;
+        hyphens: none !important;
+        -webkit-hyphens: none !important;
+    }
+    .prose pre, .prose code {
+        white-space: pre-wrap !important;
+        word-break: break-all !important;
     }
     .prose blockquote {
         border-left: 4px solid #10b981 !important;

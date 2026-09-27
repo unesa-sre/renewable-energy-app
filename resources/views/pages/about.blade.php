@@ -172,7 +172,7 @@
                     </div>
                     <div id="scroll-01" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="/images/team/guest.png"
+                            <img src="\images\team\BOE\P-Level\MICHAEL.jpg"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="/images/team/guest.png"
+                            <img src="\images\team\BOE\P-Level\SAUDIPUTRA.jpg"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="/images/team/guest.png"
+                            <img src="\images\team\BOE\Secretary\Salwa.jpg"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="/images/team/guest.png"
+                            <img src="\images\team\BOE\Treasurer\EMINA.jpg"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -227,7 +227,7 @@
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="/images/team/guest.png"
+                            <img src="\images\team\BOE\Treasurer\ELLEN.jpg"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -277,7 +277,7 @@
                     <div id="scroll-02" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="images\team\CB\Ryan Kadep.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">RYAN RIZKY MAHENDRA</h4>
@@ -291,7 +291,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\PR\Nevrina Head division.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">NEVRINA ZAHWA PRATIWI</h4>
@@ -305,13 +305,27 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\PR\AMMAR.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">FAWAZUL 'AMMAR</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
                                     <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
                                     <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Sains Data 24</p>
+                                </div>
+                            </div>
+                            <div class="text-center px-2">
+                            </div>
+                        </div>
+                         <div class="min-w-[280px] flex flex-col gap-3">
+                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
+                                <img src="\images\team\CB\PR\Diany.jpg"
+                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
+                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
+                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">DILLA NUR RIZKYANI</h4>
+                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
+                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
+                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Ekonomi 24</p>
                                 </div>
                             </div>
                             <div class="text-center px-2">
@@ -336,20 +350,6 @@
                                 <img src="/images/team/guest.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
-                                    <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">DILLA NUR RIZKYANI</h4>
-                                    <div class="w-8 h-px bg-emerald-400 mb-3"></div>
-                                    <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
-                                    <p class="text-xs font-semibold text-emerald-200 tracking-widest text-center mt-1">S1 Ekonomi 24</p>
-                                </div>
-                            </div>
-                            <div class="text-center px-2">
-                            </div>
-                        </div>
-                        <div class="min-w-[280px] flex flex-col gap-3">
-                            <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
-                                    class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
-                                <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">MUHAMMAD YUDHI WAHYU WIBOWO</h4>
                                     <div class="w-8 h-px bg-emerald-400 mb-3"></div>
                                     <p class="text-xs font-bold text-emerald-300 uppercase tracking-widest text-center">Staff Public Relation</p>
@@ -361,7 +361,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\HR\Akbar Kepala Divisi.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">AKBARRULLAH DWI PUTRA WICAKSONO</h4>
@@ -375,7 +375,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\HR\Bunga.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">BUNGA CANTIKA RAHMATIA PUTRI</h4>
@@ -389,7 +389,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\HR\Ikhsan.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Ikhsan Dwi Putra</h4>
@@ -403,7 +403,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\HR\Mutia.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">MUTIA INDAH RAMADHANI</h4>
@@ -417,7 +417,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\HR\Sekar.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sekar Ayu Widura</h4>
@@ -469,7 +469,7 @@
                     <div id="scroll-03" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\BD\FEBRIO KADEP.jpeg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Febrio Fadillah</h4>
@@ -497,7 +497,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\BD\ECHA.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Reza Mortasefi</h4>
@@ -511,7 +511,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\BD\NOPAL.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">AHMAD NAUFAL FARRAS RIFAI</h4>
@@ -525,7 +525,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\BD\INNES.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Dewi Apriliani Inestasia</h4>
@@ -577,7 +577,7 @@
                     <div id="scroll-04" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\GARIN KADEP.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">ANDHIKA GARIN WIJAKSANA</h4>
@@ -591,7 +591,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\GD\AMIRA HD.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">SILMAH AMIRATUNNA'ILAH</h4>
@@ -605,7 +605,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\GD\EVAN.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Evan Mulya Simbolon</h4>
@@ -619,7 +619,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\GD\NABILA.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Nabila Aminatuzzahro</h4>
@@ -633,7 +633,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\BRANDING\JIBI.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">KHAN NASYWA ZIBRIJ HABIBI</h4>
@@ -647,7 +647,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\BRANDING\FARREL.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Farrel Brilliansyah Putra Siswoyo</h4>
@@ -676,7 +676,7 @@
 
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\WD\THIL HD.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Rafi Athillah Firmansyah</h4>
@@ -690,7 +690,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\WD\IAN.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Ian Frissaad</h4>
@@ -704,7 +704,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\WD\DAMAR.JPG"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Damar Ninuwidarma</h4>
@@ -770,7 +770,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\ARINA.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arina Manasikana</h4>
@@ -784,7 +784,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\NAINA.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">NAINA ALIFYA RIFHANA</h4>
@@ -798,7 +798,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\SENDI.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Sendi Aribi Saputra</h4>
@@ -854,7 +854,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\ARYA.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Arya Latief</h4>

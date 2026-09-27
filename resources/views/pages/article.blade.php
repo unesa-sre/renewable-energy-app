@@ -47,7 +47,7 @@
             <div class="p-8 flex flex-col flex-1">
                 <p class="text-[10px] font-black text-primary uppercase tracking-widest mb-3">{{ $article->created_at->format('d M Y') }}</p>
                 <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-4 line-clamp-2">{{ $article->title }}</h3>
-                <p class="text-sm text-slate-500 dark:text-slate-400 mb-8 line-clamp-3 leading-relaxed flex-1">{{ Str::limit($article->content, 120) }}</p>
+                <p class="text-sm text-slate-500 dark:text-slate-400 mb-8 line-clamp-3 leading-relaxed flex-1">{{ Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags($article->content), ENT_QUOTES | ENT_HTML5, 'UTF-8'))), 120) }}</p>
                 <a href="{{ route('milestone.article.show', $article) }}" class="text-primary font-black uppercase tracking-widest text-xs flex items-center gap-2 group/btn">
                     Baca Selengkapnya
                     <svg class="w-4 h-4 group-hover/btn:translate-x-2 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
