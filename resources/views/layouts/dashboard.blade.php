@@ -75,9 +75,12 @@
 <body
     class="font-sans text-dark dark:text-slate-200 bg-slate-50 dark:bg-slate-950 flex min-h-screen transition-colors duration-300">
 
+    <!-- Mobile Overlay -->
+    <div id="mobile-overlay" class="fixed inset-0 bg-slate-900/50 z-40 hidden lg:hidden backdrop-blur-sm transition-opacity cursor-pointer"></div>
+
     <!-- Sidebar -->
     <aside id="sidebar"
-        class="w-64 bg-white dark:bg-slate-900 hidden lg:flex flex-col fixed inset-y-0 shadow-sm z-50 transition-colors border-r dark:border-slate-800">
+        class="w-64 bg-white dark:bg-slate-900 flex flex-col fixed inset-y-0 left-0 transform -translate-x-full lg:translate-x-0 shadow-sm z-50 transition-all duration-300 border-r dark:border-slate-800">
         <div class="h-20 flex items-center px-6">
             <a href="{{ route('home') }}" class="flex items-center gap-3 group">
                 <img src="{{ asset('images/logo/srehijau.png') }}" alt="SRE Logo" class="h-10 object-contain shrink-0">
@@ -152,10 +155,10 @@
     </aside>
 
     <!-- Content Area -->
-    <div id="main-content" class="flex-1 ml-64 flex flex-col min-w-0">
+    <div id="main-content" class="flex-1 ml-0 lg:ml-64 flex flex-col min-w-0 transition-all duration-300">
         <!-- Header -->
         <header
-            class="h-20 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md flex items-center justify-between px-8 sticky top-0 z-40 border-b border-slate-100 dark:border-slate-800 transition-all">
+            class="h-20 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md flex items-center justify-between px-4 lg:px-8 sticky top-0 z-30 border-b border-slate-100 dark:border-slate-800 transition-all">
             <div class="flex items-center gap-4">
                 <!-- Sidebar Toggle -->
                 <button id="sidebar-toggle"
@@ -186,7 +189,7 @@
         </header>
 
         <!-- Main Content -->
-        <main class="p-8 pb-20 max-w-7xl mx-auto w-full">
+        <main class="p-4 lg:p-8 pb-20 max-w-7xl mx-auto w-full">
             @yield('content')
         </main>
     </div>
@@ -196,25 +199,37 @@
         const sidebar = document.getElementById('sidebar');
         const mainContent = document.getElementById('main-content');
         const sidebarToggle = document.getElementById('sidebar-toggle');
+        const mobileOverlay = document.getElementById('mobile-overlay');
 
         function toggleSidebar() {
-            sidebar.classList.toggle('sidebar-collapsed');
-            if (sidebar.classList.contains('sidebar-collapsed')) {
-                mainContent.classList.replace('ml-64', 'ml-20');
-                localStorage.setItem('sidebar-mode', 'collapsed');
-            } else {
-                mainContent.classList.replace('ml-20', 'ml-64');
-                localStorage.setItem('sidebar-mode', 'expanded');
+            if (window.innerWidth >= 1024) { // Desktop
+                sidebar.classList.toggle('sidebar-collapsed');
+                if (sidebar.classList.contains('sidebar-collapsed')) {
+                    mainContent.classList.remove('lg:ml-64');
+                    mainContent.classList.add('lg:ml-20');
+                    localStorage.setItem('sidebar-mode', 'collapsed');
+                } else {
+                    mainContent.classList.remove('lg:ml-20');
+                    mainContent.classList.add('lg:ml-64');
+                    localStorage.setItem('sidebar-mode', 'expanded');
+                }
+            } else { // Mobile
+                sidebar.classList.toggle('-translate-x-full');
+                mobileOverlay.classList.toggle('hidden');
             }
         }
 
-        // Init Sidebar state
-        if (localStorage.getItem('sidebar-mode') === 'collapsed') {
+        // Init Sidebar state (Desktop only)
+        if (window.innerWidth >= 1024 && localStorage.getItem('sidebar-mode') === 'collapsed') {
             sidebar.classList.add('sidebar-collapsed');
-            mainContent.classList.replace('ml-64', 'ml-20');
+            mainContent.classList.remove('lg:ml-64');
+            mainContent.classList.add('lg:ml-20');
         }
 
         sidebarToggle.addEventListener('click', toggleSidebar);
+        if (mobileOverlay) {
+            mobileOverlay.addEventListener('click', toggleSidebar);
+        }
     </script>
     @yield('scripts')
 </body>
