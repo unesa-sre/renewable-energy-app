@@ -1,6 +1,6 @@
 @extends('layouts.app-public')
 
-@section('title', 'Merch')
+@section('title', 'Official Merch - SRE UNESA')
 
 @section('styles')
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
     
     /* Hero Section */
     .merch-hero {
-        background-color: #009150;
-        padding: 5rem 2rem;
+        background-color: #002816;
+        padding: 6.5rem 2rem;
         position: relative;
         overflow: hidden;
         text-align: center;
@@ -337,11 +337,13 @@
 
     @keyframes marquee {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
+        100% { transform: translateX(-100%); }
     }
 
     .animate-marquee {
         animation: marquee 30s linear infinite;
+        display: flex;
+        flex-shrink: 0;
     }
 
     .alert {
@@ -388,14 +390,24 @@
 @endphp
 
 <!-- Hero Section -->
-<section class="merch-hero">
-    <div class="merch-hero-content animate-fade-in">
-        <h1 class="drop-shadow-lg">Official Merchandise <br> EcoFuture!</h1>
-        <p>Tingkatkan gaya hidup berkelanjutan Anda dengan koleksi eksklusif dari komunitas kami.</p>
+<section class="merch-hero relative">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0 z-0">
+        <img src="{{ asset('images/merch/79S2.gif') }}" 
+             alt="Background Hutan Merch" 
+             class="w-full h-full object-cover object-center">
+        <!-- Overlay to ensure text stays clear and readable -->
+        <div class="absolute inset-0 bg-gradient-to-b from-[#002816]/85 via-[#005a32]/75 to-[#002816]/90"></div>
+        <div class="absolute inset-0 bg-black/25"></div>
+    </div>
+
+    <div class="merch-hero-content animate-fade-in relative z-10">
+        <h1 class="drop-shadow-lg text-white">Official Merchandise <br> SRE UNESA!</h1>
+        <p class="text-white/95 drop-shadow">Tingkatkan gaya hidup berkelanjutan Anda dengan koleksi eksklusif dari komunitas kami.</p>
     </div>
     
     <!-- Decorative Accents -->
-    <div class="absolute top-1/4 right-10 opacity-20 hidden lg:block">
+    <div class="absolute top-1/4 right-10 opacity-20 hidden lg:block pointer-events-none z-10">
         <svg width="200" height="200" viewBox="0 0 200 200" fill="none" class="text-white">
             <path d="M20 180Q50 150 180 20" stroke="currentColor" stroke-width="4" stroke-dasharray="8 8"/>
             <path d="M160 20L180 20L180 40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -441,24 +453,22 @@
 @endif
 
 <!-- MARQUEE SECTION -->
-<div class="relative py-12 my-12 overflow-hidden bg-white border-y border-slate-100">
-    <div class="absolute inset-0 py-12 flex items-center whitespace-nowrap">
-        <div class="animate-marquee flex gap-16 items-center pr-16">
-            @foreach(range(1, 4) as $i)
-            <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center">
-                <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto mr-4" alt="SRE Logo">
-                <span class="text-yellow-400">Merchandise</span>
-            </span>
-            @endforeach
-        </div>
-        <div class="animate-marquee flex gap-16 items-center pr-16" aria-hidden="true">
-            @foreach(range(1, 4) as $i)
-            <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center">
-                <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto mr-4" alt="SRE Logo">
-                <span class="text-yellow-400">Merchandise</span>
-            </span>
-            @endforeach
-        </div>
+<div class="w-full py-8 lg:py-12 my-12 overflow-hidden bg-white border-y border-slate-100 flex items-center select-none">
+    <div class="flex shrink-0 items-center gap-12 lg:gap-20 pr-12 lg:pr-20 animate-marquee whitespace-nowrap">
+        @foreach(range(1, 6) as $i)
+        <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center gap-4 lg:gap-6 shrink-0">
+            <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto shrink-0 object-contain" alt="SRE Logo">
+            <span><span class="text-sky-200">UNESA.</span><span class="text-yellow-400">MERCHANDISE</span></span>
+        </span>
+        @endforeach
+    </div>
+    <div class="flex shrink-0 items-center gap-12 lg:gap-20 pr-12 lg:pr-20 animate-marquee whitespace-nowrap" aria-hidden="true">
+        @foreach(range(1, 6) as $i)
+        <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center gap-4 lg:gap-6 shrink-0">
+            <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto shrink-0 object-contain" alt="SRE Logo">
+            <span><span class="text-sky-200">UNESA.</span><span class="text-yellow-400">MERCHANDISE</span></span>
+        </span>
+        @endforeach
     </div>
 </div>
 
@@ -483,37 +493,48 @@
     @endif
 @endforelse
 
-<!-- Marketplace Banner -->
+<!-- Marketplace / Community Banner -->
 <section class="animate-fade-in px-4 mb-24">
     <div class="max-w-7xl mx-auto relative group overflow-hidden rounded-[2rem] lg:rounded-[4rem] shadow-2xl shadow-emerald-900/10 border border-emerald-100">
         <!-- Banner Image -->
-        <img src="{{ asset('images/merch/marketplace-banner.png') }}" 
+        <img src="{{ asset('images/merch/srebenner.jpg') }}" 
              alt="Get Our Official Merchandise at" 
-             class="w-full h-auto object-cover block"
-             onerror="this.src='https://placehold.co/1200x400/064e3b/FFFFFF?text=Get+Our+Official+Merchandise+at+Instagram+and+Shopee'">
+             class="w-full h-auto object-cover block select-none pointer-events-none">
         
-        <!-- Interactive Overlay (Transparent Links over the handles in the image) -->
-        <div class="absolute inset-0 flex">
-            <!-- Left empty space -->
-            <div class="w-[45%] h-full"></div>
+        <!-- Interactive Overlay (Clickable Pill Buttons for Instagram Handles) -->
+        <div class="absolute inset-0 z-20">
+            <!-- Button 1: @sreunesa.merch -->
+            <a href="https://www.instagram.com/sreunesa.merch/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               style="top: 10.8%; left: 69.5%; width: 26.0%; height: 11.0%;"
+               class="absolute rounded-[1rem] sm:rounded-[1.5rem] lg:rounded-[2.2rem] hover:bg-black/10 hover:ring-2 sm:hover:ring-4 hover:ring-[#009150]/60 active:scale-[0.98] transition-all cursor-pointer"
+               title="Kunjungi Instagram @sreunesa.merch">
+            </a>
             
-            <!-- Right Interaction Area -->
-            <div class="w-[55%] h-full relative">
-                <!-- Clickable Area for Instagram -->
-                <a href="https://www.instagram.com/merch.sreits/" 
-                   target="_blank" 
-                   class="absolute top-[34%] left-[10%] w-[45%] h-[16%] rounded-xl hover:bg-white/5 transition-colors cursor-pointer z-10"
-                   title="Follow our Instagram">
-                </a>
-                
-                <!-- Clickable Area for Shopee -->
-                <a href="https://shopee.co.id/merchsreits" 
-                   target="_blank" 
-                   class="absolute top-[52%] left-[10%] w-[65%] h-[16%] rounded-xl hover:bg-white/5 transition-colors cursor-pointer z-10"
-                   title="Shop on Shopee">
-                </a>
-            </div>
+            <!-- Button 2: @sre_unesa -->
+            <a href="https://www.instagram.com/sre_unesa/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               style="top: 23.8%; left: 69.5%; width: 26.0%; height: 11.0%;"
+               class="absolute rounded-[1rem] sm:rounded-[1.5rem] lg:rounded-[2.2rem] hover:bg-black/10 hover:ring-2 sm:hover:ring-4 hover:ring-[#009150]/60 active:scale-[0.98] transition-all cursor-pointer"
+               title="Kunjungi Instagram @sre_unesa">
+            </a>
         </div>
+    </div>
+
+    <!-- Mobile Quick Buttons (Optional easy-to-tap buttons on small screens) -->
+    <div class="flex sm:hidden flex-wrap items-center justify-center gap-3 mt-4">
+        <a href="https://www.instagram.com/sreunesa.merch/" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center gap-2 px-4 py-2.5 bg-emerald-50 border border-emerald-200 text-emerald-900 rounded-full text-xs font-bold hover:bg-emerald-100 transition shadow-sm active:scale-95">
+            <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>@sreunesa.merch</span>
+        </a>
+        <a href="https://www.instagram.com/sre_unesa/" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center gap-2 px-4 py-2.5 bg-emerald-50 border border-emerald-200 text-emerald-900 rounded-full text-xs font-bold hover:bg-emerald-100 transition shadow-sm active:scale-95">
+            <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>@sre_unesa</span>
+        </a>
     </div>
 </section>
 
@@ -569,7 +590,7 @@
         
         <!-- Footer Menu -->
         <div class="bg-slate-50 px-6 sm:px-8 py-4 border-t border-slate-100 flex justify-between items-center">
-            <span class="text-xs text-slate-400 font-medium">Official SRE UNAIR Merchandise</span>
+            <span class="text-xs text-slate-400 font-medium">Official SRE UNESA Merchandise</span>
             <button onclick="closeModal()" class="text-sm font-bold text-slate-500 hover:text-slate-800 transition">Close</button>
         </div>
     </div>

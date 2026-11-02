@@ -47,10 +47,12 @@
     /* Infinite Marquee */
     @keyframes marquee {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
+        100% { transform: translateX(-100%); }
     }
     .animate-marquee {
         animation: marquee 25s linear infinite;
+        display: flex;
+        flex-shrink: 0;
     }
 </style>
 @endsection
@@ -250,24 +252,22 @@
     </div>
 
     <!-- Animated Loop Banner (Marquee) - Restored exactly to match image 3 (white background, yellow text, sre logo) -->
-    <div class="w-full relative py-12 my-12 overflow-hidden bg-white border-y border-slate-100 z-10">
-        <div class="absolute inset-0 py-12 flex items-center whitespace-nowrap">
-            <div class="animate-marquee flex gap-16 items-center pr-16">
-                @foreach(range(1, 8) as $i)
-                <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center">
-                    <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto mr-4" alt="SRE Logo">
-                    <span class="text-yellow-400">Merchandise</span>
-                </span>
-                @endforeach
-            </div>
-            <div class="animate-marquee flex gap-16 items-center pr-16" aria-hidden="true">
-                @foreach(range(1, 8) as $i)
-                <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center">
-                    <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto mr-4" alt="SRE Logo">
-                    <span class="text-yellow-400">Merchandise</span>
-                </span>
-                @endforeach
-            </div>
+    <div class="w-full py-8 lg:py-12 my-12 overflow-hidden bg-white border-y border-slate-100 flex items-center select-none z-10">
+        <div class="flex shrink-0 items-center gap-12 lg:gap-20 pr-12 lg:pr-20 animate-marquee whitespace-nowrap">
+            @foreach(range(1, 6) as $i)
+            <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center gap-4 lg:gap-6 shrink-0">
+                <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto shrink-0 object-contain" alt="SRE Logo">
+                <span><span class="text-orange-500">UNESA.</span><span class="text-yellow-400">MERCHANDISE</span></span>
+            </span>
+            @endforeach
+        </div>
+        <div class="flex shrink-0 items-center gap-12 lg:gap-20 pr-12 lg:pr-20 animate-marquee whitespace-nowrap" aria-hidden="true">
+            @foreach(range(1, 6) as $i)
+            <span class="text-4xl lg:text-7xl font-black uppercase tracking-tighter inline-flex items-center gap-4 lg:gap-6 shrink-0">
+                <img src="{{ asset('images/logo/srehijau.png') }}" class="h-10 lg:h-16 w-auto shrink-0 object-contain" alt="SRE Logo">
+                <span><span class="text-orange-500">UNESA.</span><span class="text-yellow-400">MERCHANDISE</span></span>
+            </span>
+            @endforeach
         </div>
     </div>
 
