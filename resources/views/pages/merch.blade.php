@@ -501,25 +501,28 @@
              alt="Get Our Official Merchandise at" 
              class="w-full h-auto object-cover block select-none pointer-events-none">
         
-        <!-- Interactive Overlay (Clickable Pill Buttons for Instagram Handles) -->
-        <div class="absolute inset-0 z-20">
-            <!-- Button 1: @sreunesa.merch -->
-            <a href="https://www.instagram.com/sreunesa.merch/" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               style="top: 10.8%; left: 69.5%; width: 26.0%; height: 11.0%;"
-               class="absolute rounded-[1rem] sm:rounded-[1.5rem] lg:rounded-[2.2rem] hover:bg-black/10 hover:ring-2 sm:hover:ring-4 hover:ring-[#009150]/60 active:scale-[0.98] transition-all cursor-pointer"
-               title="Kunjungi Instagram @sreunesa.merch">
-            </a>
-            
-            <!-- Button 2: @sre_unesa -->
-            <a href="https://www.instagram.com/sre_unesa/" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               style="top: 23.8%; left: 69.5%; width: 26.0%; height: 11.0%;"
-               class="absolute rounded-[1rem] sm:rounded-[1.5rem] lg:rounded-[2.2rem] hover:bg-black/10 hover:ring-2 sm:hover:ring-4 hover:ring-[#009150]/60 active:scale-[0.98] transition-all cursor-pointer"
-               title="Kunjungi Instagram @sre_unesa">
-            </a>
+        <!-- Interactive Overlay: Split kiri kosong / kanan 2 link IG penuh -->
+        <div class="absolute inset-0 z-20 flex">
+            <!-- Kiri 58%: tidak clickable -->
+            <div class="w-[58%] h-full pointer-events-none"></div>
+
+            <!-- Kanan 42%: dibagi atas-bawah 50:50 -->
+            <div class="w-[42%] h-full flex flex-col">
+                <!-- Atas: @sreunesa.merch -->
+                <a href="https://www.instagram.com/sreunesa.merch/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   title="Kunjungi Instagram @sreunesa.merch"
+                   class="flex-1 hover:bg-white/10 transition-all cursor-pointer active:scale-[0.99]">
+                </a>
+                <!-- Bawah: @sre_unesa -->
+                <a href="https://www.instagram.com/sre_unesa/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   title="Kunjungi Instagram @sre_unesa"
+                   class="flex-1 hover:bg-white/10 transition-all cursor-pointer active:scale-[0.99]">
+                </a>
+            </div>
         </div>
     </div>
 
