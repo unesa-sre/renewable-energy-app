@@ -502,25 +502,25 @@
              class="w-full h-auto object-cover block select-none pointer-events-none">
         
         <!-- Interactive Overlay: Split kiri kosong / kanan 2 link IG penuh -->
-        <div class="absolute inset-0 z-20 flex">
+        <div style="position:absolute; inset:0; z-index:20; display:flex;">
             <!-- Kiri 58%: tidak clickable -->
-            <div class="w-[58%] h-full pointer-events-none"></div>
+            <div style="width:58%; height:100%;"></div>
 
             <!-- Kanan 42%: dibagi atas-bawah 50:50 -->
-            <div class="w-[42%] h-full flex flex-col">
+            <div style="width:42%; height:100%; display:flex; flex-direction:column;">
                 <!-- Atas: @sreunesa.merch -->
                 <a href="https://www.instagram.com/sreunesa.merch/"
                    target="_blank"
                    rel="noopener noreferrer"
                    title="Kunjungi Instagram @sreunesa.merch"
-                   class="flex-1 hover:bg-white/10 transition-all cursor-pointer active:scale-[0.99]">
+                   style="flex:1; display:block; cursor:pointer;">
                 </a>
                 <!-- Bawah: @sre_unesa -->
                 <a href="https://www.instagram.com/sre_unesa/"
                    target="_blank"
                    rel="noopener noreferrer"
                    title="Kunjungi Instagram @sre_unesa"
-                   class="flex-1 hover:bg-white/10 transition-all cursor-pointer active:scale-[0.99]">
+                   style="flex:1; display:block; cursor:pointer;">
                 </a>
             </div>
         </div>
