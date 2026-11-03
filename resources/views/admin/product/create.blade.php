@@ -68,6 +68,11 @@
                     <input type="file" name="images[]" id="image-input" class="hidden" multiple accept="image/*" />
                 </label>
                 @error('images') <p class="text-red-500 text-[10px] mt-2 font-bold uppercase tracking-tight">{{ $message }}</p> @enderror
+                @if ($errors->has('images.0') || $errors->has('images.1') || $errors->has('images.2') || $errors->has('images.3'))
+                    <p class="text-red-500 text-[10px] mt-2 font-bold uppercase tracking-tight">
+                        ⚠ Foto gagal diupload: ukuran terlalu besar (maks 5MB per foto) atau format tidak didukung.
+                    </p>
+                @endif
             </div>
 
             <div class="flex items-center gap-3 p-5 bg-blue-50 dark:bg-blue-900/10 border border-blue-100 dark:border-blue-800 rounded-2xl">

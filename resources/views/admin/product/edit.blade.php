@@ -82,6 +82,11 @@
                 </label>
             </div>
             @error('images') <p class="text-red-500 text-xs mt-2 font-bold">{{ $message }}</p> @enderror
+            @if ($errors->has('images.0') || $errors->has('images.1') || $errors->has('images.2') || $errors->has('images.3'))
+                <p class="text-red-500 text-xs mt-2 font-bold">
+                    ⚠ Foto gagal diupload: ukuran terlalu besar (maks 5MB per foto) atau format tidak didukung.
+                </p>
+            @endif
         </div>
 
         <div class="flex items-center gap-3 p-5 bg-blue-50 border border-blue-100 rounded-2xl">

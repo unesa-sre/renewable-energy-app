@@ -46,17 +46,20 @@ class ProductController extends Controller
             'description'=> 'required',
             'price'      => 'required|numeric',
             'order_link' => 'nullable|url|max:255',
-            'images.*'   => 'nullable|image|max:2048',
+            'images.*'   => 'nullable|image|max:5120', // Naikkan batas ke 5MB per foto
         ]);
 
-        $data = $request->all();
+        $data = $request->only(['category', 'name', 'description', 'price', 'order_link']);
         $data['is_special'] = $request->boolean('is_special');
 
         $imagePaths = [];
         if ($request->hasFile('images')) {
             foreach ($request->file('images') as $file) {
-                if (count($imagePaths) < 4) {
-                    $imagePaths[] = $file->store('products', 'public');
+                if ($file->isValid() && count($imagePaths) < 4) {
+                    $path = $file->store('products', 'public');
+                    if ($path) {
+                        $imagePaths[] = $path;
+                    }
                 }
             }
         }
@@ -83,24 +86,27 @@ class ProductController extends Controller
             'description'=> 'required',
             'price'      => 'required|numeric',
             'order_link' => 'nullable|url|max:255',
-            'images.*'   => 'nullable|image|max:2048',
+            'images.*'   => 'nullable|image|max:5120', // Naikkan batas ke 5MB per foto
         ]);
 
-        $data = $request->all();
+        $data = $request->only(['category', 'name', 'description', 'price', 'order_link']);
         $data['is_special'] = $request->boolean('is_special');
 
         $imagePaths = $product->image ?? [];
         if ($request->hasFile('images')) {
+            // Hapus foto lama
             if (is_array($imagePaths)) {
                 foreach ($imagePaths as $oldPath) {
                     Storage::disk('public')->delete($oldPath);
                 }
             }
-
             $imagePaths = [];
             foreach ($request->file('images') as $file) {
-                if (count($imagePaths) < 4) {
-                    $imagePaths[] = $file->store('products', 'public');
+                if ($file->isValid() && count($imagePaths) < 4) {
+                    $path = $file->store('products', 'public');
+                    if ($path) {
+                        $imagePaths[] = $path;
+                    }
                 }
             }
         }
