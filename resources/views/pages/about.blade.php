@@ -194,7 +194,7 @@
                             </div>
                         </div>
                         <div class="min-w-[320px] aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                            <img src="/images/team/guest.png"
+                            <img src="images\team\BOE\Secretary\_MG_5456.JPG"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                             <div
                                 class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-8 opacity-0 group-hover:opacity-100">
@@ -333,7 +333,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\PR\Hasan.jpeg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">FADIL HASAN AL RAFLI E.S</h4>
@@ -347,7 +347,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\CB\PR\yudhi.png"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">MUHAMMAD YUDHI WAHYU WIBOWO</h4>
@@ -483,7 +483,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\BD\Billa.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Wida Fitri Nabilatul Hamidah</h4>
@@ -661,7 +661,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-emerald-900/50">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\DBX\BRANDING\Tanzilal.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/85 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Tanzilal Ramadhan S</h4>
@@ -756,7 +756,7 @@
                     <div id="scroll-05" class="lg:col-span-8 overflow-x-auto scroll-smooth hide-scrollbar flex gap-6 pb-10">
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\Bagus Hendra.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Bagus Hendra Saputra</h4>
@@ -812,7 +812,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\adi putra.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">Muhammad Purnama Adi Putra</h4>
@@ -826,7 +826,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\achmad.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">ACHMAD MUHAJIRIN ILHAM</h4>
@@ -840,7 +840,7 @@
                         </div>
                         <div class="min-w-[280px] flex flex-col gap-3">
                             <div class="aspect-[4/5] relative rounded-[2rem] overflow-hidden group bg-slate-100">
-                                <img src="/images/team/guest.png"
+                                <img src="\images\team\R&D\hafshah.jpg"
                                     class="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105">
                                 <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/80 transition-all duration-500 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100">
                                     <h4 class="text-xl font-black text-white text-center uppercase tracking-tight mb-2">HAFSHAH LAHFAH AZZAHRA</h4>
