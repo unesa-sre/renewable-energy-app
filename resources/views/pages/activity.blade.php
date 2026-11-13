@@ -56,7 +56,7 @@
             <div class="p-8 pt-6 flex-1 flex flex-col">
                 <h3 class="text-xl font-black text-[#004225] mb-3 line-clamp-2 group-hover:text-[#009150] transition-colors">{{ $activity->name }}</h3>
                 <p class="text-slate-500 text-sm mb-8 line-clamp-2 leading-relaxed">
-                    {{ Str::limit(strip_tags($activity->description ?? 'Tidak ada deskripsi.'), 100) }}
+                    {{ Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags(str_replace(['&nbsp;', 'nbsp;'], ' ', $activity->description ?? 'Tidak ada deskripsi.')), ENT_QUOTES | ENT_HTML5, 'UTF-8'))), 100) }}
                 </p>
                 
                 <div class="mt-auto space-y-3">

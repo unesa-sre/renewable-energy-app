@@ -202,7 +202,11 @@
     var form = document.querySelector('form[action*="activity"]');
     if (form) {
         form.addEventListener('submit', function () {
-            document.getElementById('description-input-edit').value = quillEdit.getSemanticHTML();
+            var html = quillEdit.getSemanticHTML();
+            if (quillEdit.getText().trim().length === 0) {
+                html = '';
+            }
+            document.getElementById('description-input-edit').value = html;
         });
     }
 

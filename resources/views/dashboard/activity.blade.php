@@ -39,7 +39,7 @@
                             class="text-lg font-bold text-slate-800 dark:text-white group-hover:text-primary transition line-clamp-1">
                             {{ $activity->name }}</h3>
                         <p class="text-sm text-slate-500 dark:text-slate-400 mt-2 mb-6 line-clamp-2 leading-relaxed">
-                            {{ $activity->description }}</p>
+                            {{ Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags(str_replace(['&nbsp;', 'nbsp;'], ' ', $activity->description ?? 'Tidak ada deskripsi.')), ENT_QUOTES | ENT_HTML5, 'UTF-8'))), 120) }}</p>
 
                         <div class="flex items-center justify-between pt-4 border-t border-slate-50 dark:border-slate-800">
                             <div class="flex items-center gap-2">

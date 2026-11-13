@@ -200,7 +200,11 @@
     var form = document.querySelector('form[action*="activity"]');
     if (form) {
         form.addEventListener('submit', function () {
-            document.getElementById('description-input-create').value = quillCreate.getSemanticHTML();
+            var html = quillCreate.getSemanticHTML();
+            if (quillCreate.getText().trim().length === 0) {
+                html = '';
+            }
+            document.getElementById('description-input-create').value = html;
         });
     }
 

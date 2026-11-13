@@ -71,7 +71,7 @@
                 <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 block mb-4 border-b border-slate-100 dark:border-slate-700 pb-2">Deskripsi Kegiatan</span>
                 @if($activity->description)
                 <div class="prose prose-sm prose-slate prose-p:break-words max-w-none w-full description-content dark:prose-invert">
-                    {!! $activity->description !!}
+                    {!! str_replace(['&nbsp;', 'nbsp;'], ' ', $activity->description) !!}
                 </div>
                 @else
                 <p class="text-slate-400 italic text-sm">Tidak ada deskripsi untuk kegiatan ini.</p>

@@ -111,7 +111,7 @@
     {{-- Description --}}
     @if($activity->description)
     <div class="prose prose-lg prose-p:break-words max-w-none w-full mb-12 description-content">
-        {!! $activity->description !!}
+        {!! str_replace(['&nbsp;', 'nbsp;'], ' ', $activity->description) !!}
     </div>
     @else
     <div class="prose prose-lg max-w-none w-full mb-12 text-gray-600">

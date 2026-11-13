@@ -17,4 +17,19 @@ class Activity extends Model
         'participants'  => 'array',
         'gallery_images'=> 'array',
     ];
+
+    public function getCleanDescriptionAttribute(): string
+    {
+        if (empty($this->description)) {
+            return 'Tidak ada deskripsi.';
+        }
+
+        $text = html_entity_decode($this->description, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+        $text = str_replace(['&nbsp;', 'nbsp;'], ' ', $text);
+        $text = strip_tags($text);
+        $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+        $text = trim(preg_replace('/[\s\x{00a0}]+/u', ' ', $text));
+
+        return $text !== '' ? $text : 'Tidak ada deskripsi.';
+    }
 }

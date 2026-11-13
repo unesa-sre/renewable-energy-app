@@ -59,6 +59,10 @@ class ActivityController extends Controller
 
         $data = $request->only(['name', 'location', 'date', 'description']);
 
+        if (isset($data['description']) && trim(strip_tags(str_replace('&nbsp;', ' ', $data['description']))) === '') {
+            $data['description'] = null;
+        }
+
         // Parse participants
         if ($request->filled('participants')) {
             $data['participants'] = array_values(array_filter(
@@ -111,6 +115,10 @@ class ActivityController extends Controller
         ]);
 
         $data = $request->only(['name', 'location', 'date', 'description']);
+
+        if (isset($data['description']) && trim(strip_tags(str_replace('&nbsp;', ' ', $data['description']))) === '') {
+            $data['description'] = null;
+        }
 
         // Parse participants
         if ($request->filled('participants')) {
